@@ -1,0 +1,34 @@
+[0.569s] Invoking command in '/home/smartway/ros2_ws/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/smartway/ros2_ws/install/rpi_robot_control:/home/smartway/ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/smartway/ros2_ws/build/nav2_common -- -j4 -l4
+[2.619s] Invoked command in '/home/smartway/ros2_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/smartway/ros2_ws/install/rpi_robot_control:/home/smartway/ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/smartway/ros2_ws/build/nav2_common -- -j4 -l4
+[4.625s] Invoking command in '/home/smartway/ros2_ws/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/smartway/ros2_ws/install/rpi_robot_control:/home/smartway/ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --install /home/smartway/ros2_ws/build/nav2_common
+[4.720s] -- Install configuration: ""
+[4.722s] -- Up-to-date: /home/smartway/ros2_ws/install/nav2_common/share/nav2_common/environment/pythonpath.sh
+[4.725s] -- Up-to-date: /home/smartway/ros2_ws/install/nav2_common/share/nav2_common/environment/pythonpath.dsv
+[4.726s] -- Up-to-date: /home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common
+[4.729s] -- Up-to-date: /home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch
+[4.731s] -- Up-to-date: /home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/has_node_params.py
+[4.734s] -- Up-to-date: /home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/replace_string.py
+[4.736s] -- Up-to-date: /home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/__init__.py
+[4.738s] -- Up-to-date: /home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/rewritten_yaml.py
+[4.742s] -- Up-to-date: /home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/__init__.py
+[5.024s] Listing '/home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common'...
+[5.026s] Listing '/home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch'...
+[5.057s] -- Up-to-date: /home/smartway/ros2_ws/install/nav2_common/share/ament_index/resource_index/package_run_dependencies/nav2_common
+[5.058s] -- Up-to-date: /home/smartway/ros2_ws/install/nav2_common/share/ament_index/resource_index/parent_prefix_path/nav2_common
+[5.059s] -- Up-to-date: /home/smartway/ros2_ws/install/nav2_common/share/nav2_common/environment/ament_prefix_path.sh
+[5.060s] -- Up-to-date: /home/smartway/ros2_ws/install/nav2_common/share/nav2_common/environment/ament_prefix_path.dsv
+[5.061s] -- Up-to-date: /home/smartway/ros2_ws/install/nav2_common/share/nav2_common/environment/path.sh
+[5.062s] -- Up-to-date: /home/smartway/ros2_ws/install/nav2_common/share/nav2_common/environment/path.dsv
+[5.063s] -- Up-to-date: /home/smartway/ros2_ws/install/nav2_common/share/nav2_common/local_setup.bash
+[5.063s] -- Up-to-date: /home/smartway/ros2_ws/install/nav2_common/share/nav2_common/local_setup.sh
+[5.065s] -- Up-to-date: /home/smartway/ros2_ws/install/nav2_common/share/nav2_common/local_setup.zsh
+[5.066s] -- Up-to-date: /home/smartway/ros2_ws/install/nav2_common/share/nav2_common/local_setup.dsv
+[5.066s] -- Installing: /home/smartway/ros2_ws/install/nav2_common/share/nav2_common/package.dsv
+[5.067s] -- Up-to-date: /home/smartway/ros2_ws/install/nav2_common/share/ament_index/resource_index/packages/nav2_common
+[5.068s] -- Up-to-date: /home/smartway/ros2_ws/install/nav2_common/share/nav2_common/cmake/nav2_common-extras.cmake
+[5.068s] -- Up-to-date: /home/smartway/ros2_ws/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig.cmake
+[5.084s] -- Up-to-date: /home/smartway/ros2_ws/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig-version.cmake
+[5.091s] -- Up-to-date: /home/smartway/ros2_ws/install/nav2_common/share/nav2_common/package.xml
+[5.092s] -- Up-to-date: /home/smartway/ros2_ws/install/nav2_common/share/nav2_common/cmake
+[5.092s] -- Up-to-date: /home/smartway/ros2_ws/install/nav2_common/share/nav2_common/cmake/nav2_package.cmake
+[5.102s] Invoked command in '/home/smartway/ros2_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/smartway/ros2_ws/install/rpi_robot_control:/home/smartway/ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --install /home/smartway/ros2_ws/build/nav2_common

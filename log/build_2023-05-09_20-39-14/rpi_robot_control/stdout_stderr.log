@@ -1,0 +1,41 @@
+running egg_info
+creating ../../build/rpi_robot_control/rpi_robot_control.egg-info
+writing ../../build/rpi_robot_control/rpi_robot_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/rpi_robot_control/rpi_robot_control.egg-info/dependency_links.txt
+writing entry points to ../../build/rpi_robot_control/rpi_robot_control.egg-info/entry_points.txt
+writing requirements to ../../build/rpi_robot_control/rpi_robot_control.egg-info/requires.txt
+writing top-level names to ../../build/rpi_robot_control/rpi_robot_control.egg-info/top_level.txt
+writing manifest file '../../build/rpi_robot_control/rpi_robot_control.egg-info/SOURCES.txt'
+reading manifest file '../../build/rpi_robot_control/rpi_robot_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/rpi_robot_control/rpi_robot_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/smartway/ros2_ws/build/rpi_robot_control/build
+creating /home/smartway/ros2_ws/build/rpi_robot_control/build/lib
+creating /home/smartway/ros2_ws/build/rpi_robot_control/build/lib/rpi_robot_control
+copying rpi_robot_control/pid.py -> /home/smartway/ros2_ws/build/rpi_robot_control/build/lib/rpi_robot_control
+copying rpi_robot_control/go_to_goal.py -> /home/smartway/ros2_ws/build/rpi_robot_control/build/lib/rpi_robot_control
+copying rpi_robot_control/__init__.py -> /home/smartway/ros2_ws/build/rpi_robot_control/build/lib/rpi_robot_control
+copying rpi_robot_control/lidar.py -> /home/smartway/ros2_ws/build/rpi_robot_control/build/lib/rpi_robot_control
+running install
+running install_lib
+creating /home/smartway/ros2_ws/install/rpi_robot_control/lib/python3.8/site-packages/rpi_robot_control
+copying /home/smartway/ros2_ws/build/rpi_robot_control/build/lib/rpi_robot_control/pid.py -> /home/smartway/ros2_ws/install/rpi_robot_control/lib/python3.8/site-packages/rpi_robot_control
+copying /home/smartway/ros2_ws/build/rpi_robot_control/build/lib/rpi_robot_control/go_to_goal.py -> /home/smartway/ros2_ws/install/rpi_robot_control/lib/python3.8/site-packages/rpi_robot_control
+copying /home/smartway/ros2_ws/build/rpi_robot_control/build/lib/rpi_robot_control/__init__.py -> /home/smartway/ros2_ws/install/rpi_robot_control/lib/python3.8/site-packages/rpi_robot_control
+copying /home/smartway/ros2_ws/build/rpi_robot_control/build/lib/rpi_robot_control/lidar.py -> /home/smartway/ros2_ws/install/rpi_robot_control/lib/python3.8/site-packages/rpi_robot_control
+byte-compiling /home/smartway/ros2_ws/install/rpi_robot_control/lib/python3.8/site-packages/rpi_robot_control/pid.py to pid.cpython-38.pyc
+byte-compiling /home/smartway/ros2_ws/install/rpi_robot_control/lib/python3.8/site-packages/rpi_robot_control/go_to_goal.py to go_to_goal.cpython-38.pyc
+byte-compiling /home/smartway/ros2_ws/install/rpi_robot_control/lib/python3.8/site-packages/rpi_robot_control/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/smartway/ros2_ws/install/rpi_robot_control/lib/python3.8/site-packages/rpi_robot_control/lidar.py to lidar.cpython-38.pyc
+running install_data
+creating /home/smartway/ros2_ws/install/rpi_robot_control/share/ament_index
+creating /home/smartway/ros2_ws/install/rpi_robot_control/share/ament_index/resource_index
+creating /home/smartway/ros2_ws/install/rpi_robot_control/share/ament_index/resource_index/packages
+copying resource/rpi_robot_control -> /home/smartway/ros2_ws/install/rpi_robot_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/smartway/ros2_ws/install/rpi_robot_control/share/rpi_robot_control
+running install_egg_info
+Copying ../../build/rpi_robot_control/rpi_robot_control.egg-info to /home/smartway/ros2_ws/install/rpi_robot_control/lib/python3.8/site-packages/rpi_robot_control-0.0.0-py3.8.egg-info
+running install_scripts
+Installing go_to_goal script to /home/smartway/ros2_ws/install/rpi_robot_control/lib/rpi_robot_control
+writing list of installed files to '/home/smartway/ros2_ws/build/rpi_robot_control/install.log'

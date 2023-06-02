@@ -1,0 +1,43 @@
+[5.322s] Invoking command in '/home/smartway/ros2_ws/rpi-robot-ros-foxy/rpi_robot_control': PYTHONPATH=/home/smartway/ros2_ws/build/rpi_robot_control/prefix_override:/home/smartway/ros2_ws/install/rpi_robot_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rpi_robot_control build --build-base /home/smartway/ros2_ws/build/rpi_robot_control/build install --record /home/smartway/ros2_ws/build/rpi_robot_control/install.log --install-scripts $base/lib/rpi_robot_control --single-version-externally-managed
+[6.625s] running egg_info
+[6.628s] creating ../../build/rpi_robot_control/rpi_robot_control.egg-info
+[6.629s] writing ../../build/rpi_robot_control/rpi_robot_control.egg-info/PKG-INFO
+[6.630s] writing dependency_links to ../../build/rpi_robot_control/rpi_robot_control.egg-info/dependency_links.txt
+[6.631s] writing entry points to ../../build/rpi_robot_control/rpi_robot_control.egg-info/entry_points.txt
+[6.632s] writing requirements to ../../build/rpi_robot_control/rpi_robot_control.egg-info/requires.txt
+[6.633s] writing top-level names to ../../build/rpi_robot_control/rpi_robot_control.egg-info/top_level.txt
+[6.642s] writing manifest file '../../build/rpi_robot_control/rpi_robot_control.egg-info/SOURCES.txt'
+[6.807s] reading manifest file '../../build/rpi_robot_control/rpi_robot_control.egg-info/SOURCES.txt'
+[6.813s] writing manifest file '../../build/rpi_robot_control/rpi_robot_control.egg-info/SOURCES.txt'
+[6.814s] running build
+[6.815s] running build_py
+[6.816s] creating /home/smartway/ros2_ws/build/rpi_robot_control/build
+[6.817s] creating /home/smartway/ros2_ws/build/rpi_robot_control/build/lib
+[6.817s] creating /home/smartway/ros2_ws/build/rpi_robot_control/build/lib/rpi_robot_control
+[6.818s] copying rpi_robot_control/pid.py -> /home/smartway/ros2_ws/build/rpi_robot_control/build/lib/rpi_robot_control
+[6.819s] copying rpi_robot_control/go_to_goal.py -> /home/smartway/ros2_ws/build/rpi_robot_control/build/lib/rpi_robot_control
+[6.820s] copying rpi_robot_control/__init__.py -> /home/smartway/ros2_ws/build/rpi_robot_control/build/lib/rpi_robot_control
+[6.822s] copying rpi_robot_control/lidar.py -> /home/smartway/ros2_ws/build/rpi_robot_control/build/lib/rpi_robot_control
+[6.823s] running install
+[6.827s] running install_lib
+[6.832s] creating /home/smartway/ros2_ws/install/rpi_robot_control/lib/python3.8/site-packages/rpi_robot_control
+[6.833s] copying /home/smartway/ros2_ws/build/rpi_robot_control/build/lib/rpi_robot_control/pid.py -> /home/smartway/ros2_ws/install/rpi_robot_control/lib/python3.8/site-packages/rpi_robot_control
+[6.834s] copying /home/smartway/ros2_ws/build/rpi_robot_control/build/lib/rpi_robot_control/go_to_goal.py -> /home/smartway/ros2_ws/install/rpi_robot_control/lib/python3.8/site-packages/rpi_robot_control
+[6.836s] copying /home/smartway/ros2_ws/build/rpi_robot_control/build/lib/rpi_robot_control/__init__.py -> /home/smartway/ros2_ws/install/rpi_robot_control/lib/python3.8/site-packages/rpi_robot_control
+[6.837s] copying /home/smartway/ros2_ws/build/rpi_robot_control/build/lib/rpi_robot_control/lidar.py -> /home/smartway/ros2_ws/install/rpi_robot_control/lib/python3.8/site-packages/rpi_robot_control
+[6.840s] byte-compiling /home/smartway/ros2_ws/install/rpi_robot_control/lib/python3.8/site-packages/rpi_robot_control/pid.py to pid.cpython-38.pyc
+[6.847s] byte-compiling /home/smartway/ros2_ws/install/rpi_robot_control/lib/python3.8/site-packages/rpi_robot_control/go_to_goal.py to go_to_goal.cpython-38.pyc
+[6.855s] byte-compiling /home/smartway/ros2_ws/install/rpi_robot_control/lib/python3.8/site-packages/rpi_robot_control/__init__.py to __init__.cpython-38.pyc
+[6.856s] byte-compiling /home/smartway/ros2_ws/install/rpi_robot_control/lib/python3.8/site-packages/rpi_robot_control/lidar.py to lidar.cpython-38.pyc
+[6.858s] running install_data
+[6.861s] creating /home/smartway/ros2_ws/install/rpi_robot_control/share/ament_index
+[6.862s] creating /home/smartway/ros2_ws/install/rpi_robot_control/share/ament_index/resource_index
+[6.863s] creating /home/smartway/ros2_ws/install/rpi_robot_control/share/ament_index/resource_index/packages
+[6.863s] copying resource/rpi_robot_control -> /home/smartway/ros2_ws/install/rpi_robot_control/share/ament_index/resource_index/packages
+[6.864s] copying package.xml -> /home/smartway/ros2_ws/install/rpi_robot_control/share/rpi_robot_control
+[6.865s] running install_egg_info
+[6.876s] Copying ../../build/rpi_robot_control/rpi_robot_control.egg-info to /home/smartway/ros2_ws/install/rpi_robot_control/lib/python3.8/site-packages/rpi_robot_control-0.0.0-py3.8.egg-info
+[6.883s] running install_scripts
+[6.981s] Installing go_to_goal script to /home/smartway/ros2_ws/install/rpi_robot_control/lib/rpi_robot_control
+[6.984s] writing list of installed files to '/home/smartway/ros2_ws/build/rpi_robot_control/install.log'
+[7.166s] Invoked command in '/home/smartway/ros2_ws/rpi-robot-ros-foxy/rpi_robot_control' returned '0': PYTHONPATH=/home/smartway/ros2_ws/build/rpi_robot_control/prefix_override:/home/smartway/ros2_ws/install/rpi_robot_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rpi_robot_control build --build-base /home/smartway/ros2_ws/build/rpi_robot_control/build install --record /home/smartway/ros2_ws/build/rpi_robot_control/install.log --install-scripts $base/lib/rpi_robot_control --single-version-externally-managed

@@ -1,0 +1,31 @@
+running egg_info
+creating ../build/rccontrol/rccontrol.egg-info
+writing ../build/rccontrol/rccontrol.egg-info/PKG-INFO
+writing dependency_links to ../build/rccontrol/rccontrol.egg-info/dependency_links.txt
+writing entry points to ../build/rccontrol/rccontrol.egg-info/entry_points.txt
+writing requirements to ../build/rccontrol/rccontrol.egg-info/requires.txt
+writing top-level names to ../build/rccontrol/rccontrol.egg-info/top_level.txt
+writing manifest file '../build/rccontrol/rccontrol.egg-info/SOURCES.txt'
+reading manifest file '../build/rccontrol/rccontrol.egg-info/SOURCES.txt'
+writing manifest file '../build/rccontrol/rccontrol.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/smartway/ros2_ws/src/build/rccontrol/build
+creating /home/smartway/ros2_ws/src/build/rccontrol/build/lib
+creating /home/smartway/ros2_ws/src/build/rccontrol/build/lib/rccontrol
+copying rccontrol/__init__.py -> /home/smartway/ros2_ws/src/build/rccontrol/build/lib/rccontrol
+running install
+running install_lib
+creating /home/smartway/ros2_ws/src/install/rccontrol/lib/python3.8/site-packages/rccontrol
+copying /home/smartway/ros2_ws/src/build/rccontrol/build/lib/rccontrol/__init__.py -> /home/smartway/ros2_ws/src/install/rccontrol/lib/python3.8/site-packages/rccontrol
+byte-compiling /home/smartway/ros2_ws/src/install/rccontrol/lib/python3.8/site-packages/rccontrol/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/smartway/ros2_ws/src/install/rccontrol/share/ament_index
+creating /home/smartway/ros2_ws/src/install/rccontrol/share/ament_index/resource_index
+creating /home/smartway/ros2_ws/src/install/rccontrol/share/ament_index/resource_index/packages
+copying resource/rccontrol -> /home/smartway/ros2_ws/src/install/rccontrol/share/ament_index/resource_index/packages
+copying package.xml -> /home/smartway/ros2_ws/src/install/rccontrol/share/rccontrol
+running install_egg_info
+Copying ../build/rccontrol/rccontrol.egg-info to /home/smartway/ros2_ws/src/install/rccontrol/lib/python3.8/site-packages/rccontrol-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/smartway/ros2_ws/src/build/rccontrol/install.log'

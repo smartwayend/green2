@@ -1,0 +1,106 @@
+[0.137s] Invoking command in '/home/smartway/ros2_ws/build/costmap_queue': AMENT_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_costmap_2d:/home/smartway/ros2_ws/install/nav2_util:/home/smartway/ros2_ws/install/nav2_voxel_grid:/home/smartway/ros2_ws/install/nav2_msgs:/home/smartway/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_costmap_2d:/home/smartway/ros2_ws/install/nav2_util:/home/smartway/ros2_ws/install/nav2_voxel_grid:/home/smartway/ros2_ws/install/nav2_msgs:/home/smartway/ros2_ws/install/nav2_common:/build/rpi_robot_action_interfaces:/build/rpi_robot_bringup:/build/rpi_robot_slam:/build/rplidar_ros:/opt/ros/foxy LD_LIBRARY_PATH=/home/smartway/ros2_ws/install/nav2_costmap_2d/lib:/home/smartway/ros2_ws/install/nav2_util/lib:/home/smartway/ros2_ws/install/nav2_voxel_grid/lib:/home/smartway/ros2_ws/install/nav2_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/smartway/ros2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/smartway/ros2_ws/src/navigation2/nav2_dwb_controller/costmap_queue -DCMAKE_INSTALL_PREFIX=/home/smartway/ros2_ws/install/costmap_queue
+[0.433s] -- The C compiler identification is GNU 9.4.0
+[0.742s] -- The CXX compiler identification is GNU 9.4.0
+[0.760s] -- Check for working C compiler: /usr/bin/cc
+[1.115s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.118s] -- Detecting C compiler ABI info
+[1.481s] -- Detecting C compiler ABI info - done
+[1.517s] -- Detecting C compile features
+[1.518s] -- Detecting C compile features - done
+[1.527s] -- Check for working CXX compiler: /usr/bin/c++
+[1.926s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.930s] -- Detecting CXX compiler ABI info
+[2.344s] -- Detecting CXX compiler ABI info - done
+[2.383s] -- Detecting CXX compile features
+[2.385s] -- Detecting CXX compile features - done
+[2.413s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.577s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.578s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.802s] -- Found nav2_common: 0.4.7 (/home/smartway/ros2_ws/install/nav2_common/share/nav2_common/cmake)
+[3.805s] -- Found nav2_costmap_2d: 0.4.7 (/home/smartway/ros2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake)
+[4.127s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.199s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.893s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.176s] -- Found FastRTPS: /opt/ros/foxy/include  
+[5.836s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.664s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[9.674s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.677s] -- Looking for pthread.h
+[10.042s] -- Looking for pthread.h - found
+[10.043s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.400s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[10.401s] -- Looking for pthread_create in pthreads
+[10.693s] -- Looking for pthread_create in pthreads - not found
+[10.694s] -- Looking for pthread_create in pthread
+[11.040s] -- Looking for pthread_create in pthread - found
+[11.043s] -- Found Threads: TRUE  
+[12.939s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[14.939s] -- Setting build type to Release as none was specified.
+[16.164s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[16.708s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[16.728s] -- Check if compiler accepts -pthread
+[17.140s] -- Check if compiler accepts -pthread - yes
+[20.871s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[20.874s] -- Configured cppcheck include dirs: /home/smartway/ros2_ws/src/navigation2/nav2_dwb_controller/costmap_queue/include
+[20.874s] -- Configured cppcheck exclude dirs and/or files: 
+[20.885s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[20.887s] -- Configured cpplint exclude dirs and/or files: 
+[20.895s] -- Added test 'lint_cmake' to check CMake code style
+[20.907s] -- Added test 'uncrustify' to check C / C++ code style
+[20.908s] -- Configured uncrustify additional arguments: 
+[20.911s] -- Added test 'xmllint' to check XML markup files
+[20.963s] -- Configuring done
+[21.956s] -- Generating done
+[21.970s] -- Build files have been written to: /home/smartway/ros2_ws/build/costmap_queue
+[22.058s] Invoked command in '/home/smartway/ros2_ws/build/costmap_queue' returned '0': AMENT_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_costmap_2d:/home/smartway/ros2_ws/install/nav2_util:/home/smartway/ros2_ws/install/nav2_voxel_grid:/home/smartway/ros2_ws/install/nav2_msgs:/home/smartway/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_costmap_2d:/home/smartway/ros2_ws/install/nav2_util:/home/smartway/ros2_ws/install/nav2_voxel_grid:/home/smartway/ros2_ws/install/nav2_msgs:/home/smartway/ros2_ws/install/nav2_common:/build/rpi_robot_action_interfaces:/build/rpi_robot_bringup:/build/rpi_robot_slam:/build/rplidar_ros:/opt/ros/foxy LD_LIBRARY_PATH=/home/smartway/ros2_ws/install/nav2_costmap_2d/lib:/home/smartway/ros2_ws/install/nav2_util/lib:/home/smartway/ros2_ws/install/nav2_voxel_grid/lib:/home/smartway/ros2_ws/install/nav2_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/smartway/ros2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/smartway/ros2_ws/src/navigation2/nav2_dwb_controller/costmap_queue -DCMAKE_INSTALL_PREFIX=/home/smartway/ros2_ws/install/costmap_queue
+[22.067s] Invoking command in '/home/smartway/ros2_ws/build/costmap_queue': AMENT_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_costmap_2d:/home/smartway/ros2_ws/install/nav2_util:/home/smartway/ros2_ws/install/nav2_voxel_grid:/home/smartway/ros2_ws/install/nav2_msgs:/home/smartway/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_costmap_2d:/home/smartway/ros2_ws/install/nav2_util:/home/smartway/ros2_ws/install/nav2_voxel_grid:/home/smartway/ros2_ws/install/nav2_msgs:/home/smartway/ros2_ws/install/nav2_common:/build/rpi_robot_action_interfaces:/build/rpi_robot_bringup:/build/rpi_robot_slam:/build/rplidar_ros:/opt/ros/foxy LD_LIBRARY_PATH=/home/smartway/ros2_ws/install/nav2_costmap_2d/lib:/home/smartway/ros2_ws/install/nav2_util/lib:/home/smartway/ros2_ws/install/nav2_voxel_grid/lib:/home/smartway/ros2_ws/install/nav2_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/smartway/ros2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/smartway/ros2_ws/build/costmap_queue -- -j4 -l4
+[22.441s] [35m[1mScanning dependencies of target gtest[0m
+[22.445s] [35m[1mScanning dependencies of target gtest_main[0m
+[22.473s] [35m[1mScanning dependencies of target costmap_queue[0m
+[22.717s] [  9%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[22.732s] [ 18%] [32mBuilding CXX object CMakeFiles/costmap_queue.dir/src/limited_costmap_queue.cpp.o[0m
+[22.733s] [ 27%] [32mBuilding CXX object CMakeFiles/costmap_queue.dir/src/costmap_queue.cpp.o[0m
+[22.739s] [ 36%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[30.224s] [ 45%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[30.527s] [ 54%] [32m[1mLinking CXX static library libcostmap_queue.a[0m
+[30.666s] [ 54%] Built target gtest_main
+[30.870s] [ 54%] Built target costmap_queue
+[86.919s] [ 63%] [32m[1mLinking CXX static library libgtest.a[0m
+[87.239s] [ 63%] Built target gtest
+[87.337s] [35m[1mScanning dependencies of target utest[0m
+[87.906s] [ 72%] [32mBuilding CXX object CMakeFiles/utest.dir/test/utest.cpp.o[0m
+[106.325s] [ 81%] [32m[1mLinking CXX executable utest[0m
+[108.613s] [ 81%] Built target utest
+[108.683s] [35m[1mScanning dependencies of target mbq_test[0m
+[108.852s] [ 90%] [32mBuilding CXX object CMakeFiles/mbq_test.dir/test/mbq_test.cpp.o[0m
+[119.168s] [100%] [32m[1mLinking CXX executable mbq_test[0m
+[120.536s] [100%] Built target mbq_test
+[120.632s] Invoked command in '/home/smartway/ros2_ws/build/costmap_queue' returned '0': AMENT_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_costmap_2d:/home/smartway/ros2_ws/install/nav2_util:/home/smartway/ros2_ws/install/nav2_voxel_grid:/home/smartway/ros2_ws/install/nav2_msgs:/home/smartway/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_costmap_2d:/home/smartway/ros2_ws/install/nav2_util:/home/smartway/ros2_ws/install/nav2_voxel_grid:/home/smartway/ros2_ws/install/nav2_msgs:/home/smartway/ros2_ws/install/nav2_common:/build/rpi_robot_action_interfaces:/build/rpi_robot_bringup:/build/rpi_robot_slam:/build/rplidar_ros:/opt/ros/foxy LD_LIBRARY_PATH=/home/smartway/ros2_ws/install/nav2_costmap_2d/lib:/home/smartway/ros2_ws/install/nav2_util/lib:/home/smartway/ros2_ws/install/nav2_voxel_grid/lib:/home/smartway/ros2_ws/install/nav2_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/smartway/ros2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/smartway/ros2_ws/build/costmap_queue -- -j4 -l4
+[120.928s] Invoking command in '/home/smartway/ros2_ws/build/costmap_queue': AMENT_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_costmap_2d:/home/smartway/ros2_ws/install/nav2_util:/home/smartway/ros2_ws/install/nav2_voxel_grid:/home/smartway/ros2_ws/install/nav2_msgs:/home/smartway/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_costmap_2d:/home/smartway/ros2_ws/install/nav2_util:/home/smartway/ros2_ws/install/nav2_voxel_grid:/home/smartway/ros2_ws/install/nav2_msgs:/home/smartway/ros2_ws/install/nav2_common:/build/rpi_robot_action_interfaces:/build/rpi_robot_bringup:/build/rpi_robot_slam:/build/rplidar_ros:/opt/ros/foxy LD_LIBRARY_PATH=/home/smartway/ros2_ws/install/nav2_costmap_2d/lib:/home/smartway/ros2_ws/install/nav2_util/lib:/home/smartway/ros2_ws/install/nav2_voxel_grid/lib:/home/smartway/ros2_ws/install/nav2_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/smartway/ros2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/smartway/ros2_ws/build/costmap_queue
+[121.010s] -- Install configuration: "Release"
+[121.014s] -- Installing: /home/smartway/ros2_ws/install/costmap_queue/lib/libcostmap_queue.a
+[121.018s] -- Installing: /home/smartway/ros2_ws/install/costmap_queue/include/
+[121.021s] -- Installing: /home/smartway/ros2_ws/install/costmap_queue/include//costmap_queue
+[121.024s] -- Installing: /home/smartway/ros2_ws/install/costmap_queue/include//costmap_queue/map_based_queue.hpp
+[121.027s] -- Installing: /home/smartway/ros2_ws/install/costmap_queue/include//costmap_queue/costmap_queue.hpp
+[121.031s] -- Installing: /home/smartway/ros2_ws/install/costmap_queue/include//costmap_queue/limited_costmap_queue.hpp
+[121.036s] -- Installing: /home/smartway/ros2_ws/install/costmap_queue/share/costmap_queue/environment/library_path.sh
+[121.039s] -- Installing: /home/smartway/ros2_ws/install/costmap_queue/share/costmap_queue/environment/library_path.dsv
+[121.043s] -- Installing: /home/smartway/ros2_ws/install/costmap_queue/share/ament_index/resource_index/package_run_dependencies/costmap_queue
+[121.046s] -- Installing: /home/smartway/ros2_ws/install/costmap_queue/share/ament_index/resource_index/parent_prefix_path/costmap_queue
+[121.050s] -- Installing: /home/smartway/ros2_ws/install/costmap_queue/share/costmap_queue/environment/ament_prefix_path.sh
+[121.055s] -- Installing: /home/smartway/ros2_ws/install/costmap_queue/share/costmap_queue/environment/ament_prefix_path.dsv
+[121.059s] -- Installing: /home/smartway/ros2_ws/install/costmap_queue/share/costmap_queue/environment/path.sh
+[121.063s] -- Installing: /home/smartway/ros2_ws/install/costmap_queue/share/costmap_queue/environment/path.dsv
+[121.066s] -- Installing: /home/smartway/ros2_ws/install/costmap_queue/share/costmap_queue/local_setup.bash
+[121.069s] -- Installing: /home/smartway/ros2_ws/install/costmap_queue/share/costmap_queue/local_setup.sh
+[121.072s] -- Installing: /home/smartway/ros2_ws/install/costmap_queue/share/costmap_queue/local_setup.zsh
+[121.075s] -- Installing: /home/smartway/ros2_ws/install/costmap_queue/share/costmap_queue/local_setup.dsv
+[121.078s] -- Installing: /home/smartway/ros2_ws/install/costmap_queue/share/costmap_queue/package.dsv
+[121.081s] -- Installing: /home/smartway/ros2_ws/install/costmap_queue/share/ament_index/resource_index/packages/costmap_queue
+[121.086s] -- Installing: /home/smartway/ros2_ws/install/costmap_queue/share/costmap_queue/cmake/ament_cmake_export_include_directories-extras.cmake
+[121.092s] -- Installing: /home/smartway/ros2_ws/install/costmap_queue/share/costmap_queue/cmake/ament_cmake_export_libraries-extras.cmake
+[121.095s] -- Installing: /home/smartway/ros2_ws/install/costmap_queue/share/costmap_queue/cmake/costmap_queueConfig.cmake
+[121.097s] -- Installing: /home/smartway/ros2_ws/install/costmap_queue/share/costmap_queue/cmake/costmap_queueConfig-version.cmake
+[121.100s] -- Installing: /home/smartway/ros2_ws/install/costmap_queue/share/costmap_queue/package.xml
+[121.126s] Invoked command in '/home/smartway/ros2_ws/build/costmap_queue' returned '0': AMENT_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_costmap_2d:/home/smartway/ros2_ws/install/nav2_util:/home/smartway/ros2_ws/install/nav2_voxel_grid:/home/smartway/ros2_ws/install/nav2_msgs:/home/smartway/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_costmap_2d:/home/smartway/ros2_ws/install/nav2_util:/home/smartway/ros2_ws/install/nav2_voxel_grid:/home/smartway/ros2_ws/install/nav2_msgs:/home/smartway/ros2_ws/install/nav2_common:/build/rpi_robot_action_interfaces:/build/rpi_robot_bringup:/build/rpi_robot_slam:/build/rplidar_ros:/opt/ros/foxy LD_LIBRARY_PATH=/home/smartway/ros2_ws/install/nav2_costmap_2d/lib:/home/smartway/ros2_ws/install/nav2_util/lib:/home/smartway/ros2_ws/install/nav2_voxel_grid/lib:/home/smartway/ros2_ws/install/nav2_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/smartway/ros2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/smartway/ros2_ws/build/costmap_queue

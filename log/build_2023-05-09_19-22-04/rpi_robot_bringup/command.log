@@ -1,0 +1,6 @@
+Invoking command in '/home/smartway/ros2_ws/build/rpi_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/smartway/ros2_ws/rpi-robot-ros-foxy/rpi_robot_bringup -DCMAKE_INSTALL_PREFIX=/home/smartway/ros2_ws/install/rpi_robot_bringup
+Invoked command in '/home/smartway/ros2_ws/build/rpi_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/smartway/ros2_ws/rpi-robot-ros-foxy/rpi_robot_bringup -DCMAKE_INSTALL_PREFIX=/home/smartway/ros2_ws/install/rpi_robot_bringup
+Invoking command in '/home/smartway/ros2_ws/build/rpi_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/smartway/ros2_ws/build/rpi_robot_bringup -- -j4 -l4
+Invoked command in '/home/smartway/ros2_ws/build/rpi_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/smartway/ros2_ws/build/rpi_robot_bringup -- -j4 -l4
+Invoking command in '/home/smartway/ros2_ws/build/rpi_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/smartway/ros2_ws/build/rpi_robot_bringup
+Invoked command in '/home/smartway/ros2_ws/build/rpi_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/smartway/ros2_ws/build/rpi_robot_bringup

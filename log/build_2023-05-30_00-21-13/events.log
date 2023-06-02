@@ -1,0 +1,93 @@
+[0.000000] (-) TimerEvent: {}
+[0.000953] (-) JobUnselected: {'identifier': 'costmap_queue'}
+[0.001240] (-) JobUnselected: {'identifier': 'dwb_core'}
+[0.001904] (-) JobUnselected: {'identifier': 'dwb_critics'}
+[0.002415] (-) JobUnselected: {'identifier': 'dwb_msgs'}
+[0.003561] (-) JobUnselected: {'identifier': 'dwb_plugins'}
+[0.003748] (-) JobUnselected: {'identifier': 'nav2_amcl'}
+[0.003845] (-) JobUnselected: {'identifier': 'nav2_behavior_tree'}
+[0.003966] (-) JobUnselected: {'identifier': 'nav2_bringup'}
+[0.004044] (-) JobUnselected: {'identifier': 'nav2_bt_navigator'}
+[0.004145] (-) JobUnselected: {'identifier': 'nav2_common'}
+[0.005707] (-) JobUnselected: {'identifier': 'nav2_controller'}
+[0.007134] (-) JobUnselected: {'identifier': 'nav2_core'}
+[0.007323] (-) JobUnselected: {'identifier': 'nav2_costmap_2d'}
+[0.007464] (-) JobUnselected: {'identifier': 'nav2_dwb_controller'}
+[0.007599] (-) JobUnselected: {'identifier': 'nav2_gazebo_spawner'}
+[0.007732] (-) JobUnselected: {'identifier': 'nav2_lifecycle_manager'}
+[0.007882] (-) JobUnselected: {'identifier': 'nav2_map_server'}
+[0.008020] (-) JobUnselected: {'identifier': 'nav2_msgs'}
+[0.008131] (-) JobUnselected: {'identifier': 'nav2_navfn_planner'}
+[0.008275] (-) JobUnselected: {'identifier': 'nav2_planner'}
+[0.008384] (-) JobUnselected: {'identifier': 'nav2_recoveries'}
+[0.008494] (-) JobUnselected: {'identifier': 'nav2_regulated_pure_pursuit_controller'}
+[0.008765] (-) JobUnselected: {'identifier': 'nav2_rviz_plugins'}
+[0.008902] (-) JobUnselected: {'identifier': 'nav2_system_tests'}
+[0.009001] (-) JobUnselected: {'identifier': 'nav2_util'}
+[0.009129] (-) JobUnselected: {'identifier': 'nav2_voxel_grid'}
+[0.009217] (-) JobUnselected: {'identifier': 'nav2_waypoint_follower'}
+[0.009327] (-) JobUnselected: {'identifier': 'nav_2d_msgs'}
+[0.009575] (-) JobUnselected: {'identifier': 'nav_2d_utils'}
+[0.009699] (-) JobUnselected: {'identifier': 'navigation2'}
+[0.009840] (-) JobUnselected: {'identifier': 'rccontrol'}
+[0.009940] (-) JobUnselected: {'identifier': 'rpi_robot_action_interfaces'}
+[0.010028] (-) JobUnselected: {'identifier': 'rpi_robot_control'}
+[0.010107] (-) JobUnselected: {'identifier': 'rpi_robot_slam'}
+[0.010231] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.010352] (-) JobUnselected: {'identifier': 'smac_planner'}
+[0.010472] (rpi_robot_bringup) JobQueued: {'identifier': 'rpi_robot_bringup', 'dependencies': OrderedDict()}
+[0.010594] (rpi_robot_bringup) JobStarted: {'identifier': 'rpi_robot_bringup'}
+[0.062315] (rpi_robot_bringup) JobProgress: {'identifier': 'rpi_robot_bringup', 'progress': 'cmake'}
+[0.068508] (rpi_robot_bringup) JobProgress: {'identifier': 'rpi_robot_bringup', 'progress': 'build'}
+[0.071687] (rpi_robot_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/smartway/ros2_ws/build/rpi_robot_bringup', '--', '-j4', '-l4'], 'cwd': '/home/smartway/ros2_ws/build/rpi_robot_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'smartway'), ('SSH_AGENT_PID', '1796'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/smartway'), ('OLDPWD', '/home/smartway'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1638'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f6aaec95edd63051f39284f06411df2a'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'smartway'), ('JOURNAL_STREAM', '9:39208'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'smartway'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/smartway/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1858,unix/ubuntu:/tmp/.ICE-unix/1858'), ('INVOCATION_ID', '721e5062174943198b81a94c1e54482d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/43a5dbc6_ac87_4026_b924_6a842e3d750b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.78'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/smartway/ros2_ws/build/rpi_robot_bringup'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f6aaec95edd63051f39284f06411df2a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.098937] (-) TimerEvent: {}
+[0.199856] (-) TimerEvent: {}
+[0.300893] (-) TimerEvent: {}
+[0.401838] (-) TimerEvent: {}
+[0.502641] (-) TimerEvent: {}
+[0.551644] (rpi_robot_bringup) StdoutLine: {'line': b'[100%] Built target basic_node\n'}
+[0.591282] (rpi_robot_bringup) CommandEnded: {'returncode': 0}
+[0.603100] (-) TimerEvent: {}
+[0.705736] (-) TimerEvent: {}
+[0.720111] (rpi_robot_bringup) JobProgress: {'identifier': 'rpi_robot_bringup', 'progress': 'install'}
+[0.764163] (rpi_robot_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/smartway/ros2_ws/build/rpi_robot_bringup'], 'cwd': '/home/smartway/ros2_ws/build/rpi_robot_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'smartway'), ('SSH_AGENT_PID', '1796'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/smartway'), ('OLDPWD', '/home/smartway'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1638'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f6aaec95edd63051f39284f06411df2a'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'smartway'), ('JOURNAL_STREAM', '9:39208'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'smartway'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/smartway/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1858,unix/ubuntu:/tmp/.ICE-unix/1858'), ('INVOCATION_ID', '721e5062174943198b81a94c1e54482d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/43a5dbc6_ac87_4026_b924_6a842e3d750b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.78'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/smartway/ros2_ws/build/rpi_robot_bringup'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f6aaec95edd63051f39284f06411df2a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.806033] (-) TimerEvent: {}
+[0.806855] (rpi_robot_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.810257] (rpi_robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_bringup/lib/rpi_robot_bringup/basic_node\n'}
+[0.811408] (rpi_robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/launch\n'}
+[0.812786] (rpi_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/launch/rpi_robot_nostate.launch.py\n'}
+[0.815062] (rpi_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/launch/rpi_robot.launch.py\n'}
+[0.816915] (rpi_robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/launch/rpi_robot_joy_teleop.launch.py\n'}
+[0.817845] (rpi_robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/launch/lidar.launch.py\n'}
+[0.818364] (rpi_robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/config\n'}
+[0.819213] (rpi_robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/config/ps4.config.yaml\n'}
+[0.819796] (rpi_robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/environment/pythonpath.sh\n'}
+[0.820299] (rpi_robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/environment/pythonpath.dsv\n'}
+[0.820684] (rpi_robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_bringup/lib/python3.8/site-packages/rpi_robot_bringup\n'}
+[0.821177] (rpi_robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_bringup/lib/python3.8/site-packages/rpi_robot_bringup/__init__.py\n'}
+[0.906181] (-) TimerEvent: {}
+[0.946468] (rpi_robot_bringup) StdoutLine: {'line': b"Listing '/home/smartway/ros2_ws/install/rpi_robot_bringup/lib/python3.8/site-packages/rpi_robot_bringup'...\n"}
+[0.968982] (rpi_robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_bringup/lib/rpi_robot_bringup/rpi_robot_echo.py\n'}
+[0.969588] (rpi_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/lib/rpi_robot_bringup/rpi_robot_control.py\n'}
+[0.971225] (rpi_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/lib/rpi_robot_bringup/rpi_robot_control_nostate.py\n'}
+[0.973299] (rpi_robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/ament_index/resource_index/package_run_dependencies/rpi_robot_bringup\n'}
+[0.973856] (rpi_robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/ament_index/resource_index/parent_prefix_path/rpi_robot_bringup\n'}
+[0.974302] (rpi_robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/environment/ament_prefix_path.sh\n'}
+[0.974751] (rpi_robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/environment/ament_prefix_path.dsv\n'}
+[0.975238] (rpi_robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/environment/path.sh\n'}
+[0.975681] (rpi_robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/environment/path.dsv\n'}
+[0.976109] (rpi_robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/local_setup.bash\n'}
+[0.976515] (rpi_robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/local_setup.sh\n'}
+[0.976931] (rpi_robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/local_setup.zsh\n'}
+[0.977398] (rpi_robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/local_setup.dsv\n'}
+[0.977823] (rpi_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/package.dsv\n'}
+[0.979689] (rpi_robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/ament_index/resource_index/packages/rpi_robot_bringup\n'}
+[0.980221] (rpi_robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/cmake/rpi_robot_bringupConfig.cmake\n'}
+[0.980724] (rpi_robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/cmake/rpi_robot_bringupConfig-version.cmake\n'}
+[0.981116] (rpi_robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/package.xml\n'}
+[0.986701] (rpi_robot_bringup) CommandEnded: {'returncode': 0}
+[1.006470] (-) TimerEvent: {}
+[1.107285] (-) TimerEvent: {}
+[1.208166] (-) TimerEvent: {}
+[1.298993] (rpi_robot_bringup) JobEnded: {'identifier': 'rpi_robot_bringup', 'rc': 0}
+[1.301791] (-) EventReactorShutdown: {}

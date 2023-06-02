@@ -1,0 +1,6 @@
+{
+  "package_name": "rpi_robot_action_interfaces",
+  "non_idl_tuples": [
+    "/home/smartway/ros2_ws/rpi-robot-ros-foxy/rpi_robot_action_interfaces:action/GoToGoal.action"
+  ]
+}

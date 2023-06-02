@@ -1,0 +1,95 @@
+[0.217s] Invoking command in '/home/smartway/ros2_ws/build/rpi_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/smartway/ros2_ws/rpi-robot-ros-foxy/rpi_robot_bringup -DCMAKE_INSTALL_PREFIX=/home/smartway/ros2_ws/install/rpi_robot_bringup
+[1.311s] -- The C compiler identification is GNU 9.4.0
+[2.195s] -- The CXX compiler identification is GNU 9.4.0
+[2.301s] -- Check for working C compiler: /usr/bin/cc
+[3.304s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.310s] -- Detecting C compiler ABI info
+[3.746s] -- Detecting C compiler ABI info - done
+[3.804s] -- Detecting C compile features
+[3.807s] -- Detecting C compile features - done
+[3.822s] -- Check for working CXX compiler: /usr/bin/c++
+[4.459s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.465s] -- Detecting CXX compiler ABI info
+[5.015s] -- Detecting CXX compiler ABI info - done
+[5.070s] -- Detecting CXX compile features
+[5.073s] -- Detecting CXX compile features - done
+[5.102s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[5.363s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[5.365s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.166s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[8.713s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.800s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[9.628s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[10.159s] -- Found FastRTPS: /opt/ros/foxy/include  
+[11.717s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.523s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[12.576s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[12.605s] -- Looking for pthread.h
+[13.620s] -- Looking for pthread.h - found
+[13.621s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[14.544s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[14.548s] -- Looking for pthread_create in pthreads
+[15.334s] -- Looking for pthread_create in pthreads - not found
+[15.335s] -- Looking for pthread_create in pthread
+[16.454s] -- Looking for pthread_create in pthread - found
+[16.472s] -- Found Threads: TRUE  
+[18.325s] -- Found rclpy: 1.0.12 (/opt/ros/foxy/share/rclpy/cmake)
+[18.677s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[19.705s] -- Added test 'copyright' to check source files copyright and LICENSE
+[19.722s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[19.727s] -- Configured cppcheck include dirs: /home/smartway/ros2_ws/rpi-robot-ros-foxy/rpi_robot_bringup/include
+[19.728s] -- Configured cppcheck exclude dirs and/or files: 
+[19.766s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[19.766s] -- Configured cpplint exclude dirs and/or files: 
+[19.778s] -- Added test 'flake8' to check Python code syntax and style conventions
+[19.788s] -- Added test 'lint_cmake' to check CMake code style
+[19.794s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[19.810s] -- Added test 'uncrustify' to check C / C++ code style
+[19.811s] -- Configured uncrustify additional arguments: 
+[19.815s] -- Added test 'xmllint' to check XML markup files
+[19.844s] -- Configuring done
+[19.916s] -- Generating done
+[19.939s] -- Build files have been written to: /home/smartway/ros2_ws/build/rpi_robot_bringup
+[20.018s] Invoked command in '/home/smartway/ros2_ws/build/rpi_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/smartway/ros2_ws/rpi-robot-ros-foxy/rpi_robot_bringup -DCMAKE_INSTALL_PREFIX=/home/smartway/ros2_ws/install/rpi_robot_bringup
+[20.021s] Invoking command in '/home/smartway/ros2_ws/build/rpi_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/smartway/ros2_ws/build/rpi_robot_bringup -- -j4 -l4
+[20.536s] [35m[1mScanning dependencies of target basic_node[0m
+[20.920s] [ 50%] [32mBuilding CXX object CMakeFiles/basic_node.dir/src/basic_node.cpp.o[0m
+[42.700s] [100%] [32m[1mLinking CXX executable basic_node[0m
+[44.006s] [100%] Built target basic_node
+[44.110s] Invoked command in '/home/smartway/ros2_ws/build/rpi_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/smartway/ros2_ws/build/rpi_robot_bringup -- -j4 -l4
+[44.658s] Invoking command in '/home/smartway/ros2_ws/build/rpi_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/smartway/ros2_ws/build/rpi_robot_bringup
+[44.820s] -- Install configuration: ""
+[44.824s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/lib/rpi_robot_bringup/basic_node
+[44.828s] -- Set runtime path of "/home/smartway/ros2_ws/install/rpi_robot_bringup/lib/rpi_robot_bringup/basic_node" to ""
+[44.830s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/launch
+[44.832s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/launch/rpi_robot_nostate.launch.py
+[44.834s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/launch/rpi_robot.launch.py
+[44.838s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/launch/rpi_robot_joy_teleop.launch.py
+[44.848s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/launch/lidar.launch.py
+[44.850s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/config
+[44.852s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/config/ps4.config.yaml
+[44.855s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/environment/pythonpath.sh
+[44.861s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/environment/pythonpath.dsv
+[44.866s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/lib/python3.8/site-packages/rpi_robot_bringup
+[44.882s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/lib/python3.8/site-packages/rpi_robot_bringup/__init__.py
+[45.577s] Listing '/home/smartway/ros2_ws/install/rpi_robot_bringup/lib/python3.8/site-packages/rpi_robot_bringup'...
+[45.578s] Compiling '/home/smartway/ros2_ws/install/rpi_robot_bringup/lib/python3.8/site-packages/rpi_robot_bringup/__init__.py'...
+[45.652s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/lib/rpi_robot_bringup/rpi_robot_echo.py
+[45.655s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/lib/rpi_robot_bringup/rpi_robot_control.py
+[45.657s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/lib/rpi_robot_bringup/rpi_robot_control_nostate.py
+[45.665s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/ament_index/resource_index/package_run_dependencies/rpi_robot_bringup
+[45.670s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/ament_index/resource_index/parent_prefix_path/rpi_robot_bringup
+[45.673s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/environment/ament_prefix_path.sh
+[45.684s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/environment/ament_prefix_path.dsv
+[45.687s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/environment/path.sh
+[45.690s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/environment/path.dsv
+[45.697s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/local_setup.bash
+[45.708s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/local_setup.sh
+[45.714s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/local_setup.zsh
+[45.718s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/local_setup.dsv
+[45.723s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/package.dsv
+[45.727s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/ament_index/resource_index/packages/rpi_robot_bringup
+[45.731s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/cmake/rpi_robot_bringupConfig.cmake
+[45.734s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/cmake/rpi_robot_bringupConfig-version.cmake
+[45.737s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/package.xml
+[45.761s] Invoked command in '/home/smartway/ros2_ws/build/rpi_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/smartway/ros2_ws/build/rpi_robot_bringup

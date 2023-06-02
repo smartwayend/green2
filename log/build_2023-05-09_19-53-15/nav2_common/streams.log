@@ -1,0 +1,21 @@
+[0.166s] Invoking command in '/home/smartway/ros2_ws/build/nav2_common': /usr/bin/cmake /home/smartway/ros2_ws/src/navigation2/nav2_common -DCMAKE_INSTALL_PREFIX=/home/smartway/ros2_ws/install/nav2_common
+[1.088s] -- Configuring incomplete, errors occurred!
+[1.092s] See also "/home/smartway/ros2_ws/build/nav2_common/CMakeFiles/CMakeOutput.log".
+[1.095s] CMake Error at CMakeLists.txt:5 (find_package):
+[1.096s]   By not providing "Findament_cmake_core.cmake" in CMAKE_MODULE_PATH this
+[1.097s]   project has asked CMake to find a package configuration file provided by
+[1.098s]   "ament_cmake_core", but CMake did not find one.
+[1.098s] 
+[1.099s]   Could not find a package configuration file provided by "ament_cmake_core"
+[1.100s]   with any of the following names:
+[1.101s] 
+[1.101s]     ament_cmake_coreConfig.cmake
+[1.111s]     ament_cmake_core-config.cmake
+[1.113s] 
+[1.114s]   Add the installation prefix of "ament_cmake_core" to CMAKE_PREFIX_PATH or
+[1.114s]   set "ament_cmake_core_DIR" to a directory containing one of the above
+[1.115s]   files.  If "ament_cmake_core" provides a separate development package or
+[1.115s]   SDK, be sure it has been installed.
+[1.116s] 
+[1.117s] 
+[1.149s] Invoked command in '/home/smartway/ros2_ws/build/nav2_common' returned '1': /usr/bin/cmake /home/smartway/ros2_ws/src/navigation2/nav2_common -DCMAKE_INSTALL_PREFIX=/home/smartway/ros2_ws/install/nav2_common

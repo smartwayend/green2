@@ -1,0 +1,1 @@
+Invoking command in '/home/smartway/ros2_ws/build/rpi_robot_action_interfaces': /usr/bin/cmake /home/smartway/ros2_ws/rpi-robot-ros-foxy/rpi_robot_action_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/smartway/ros2_ws/install/rpi_robot_action_interfaces

@@ -1,0 +1,107 @@
+[0.117s] Invoking command in '/home/smartway/ros2_ws/build/nav2_bt_navigator': AMENT_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_behavior_tree:/home/smartway/ros2_ws/install/nav2_util:/home/smartway/ros2_ws/install/nav2_msgs:/home/smartway/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_behavior_tree:/home/smartway/ros2_ws/install/nav2_util:/home/smartway/ros2_ws/install/nav2_msgs:/home/smartway/ros2_ws/install/nav2_common:/build/rpi_robot_action_interfaces:/build/rpi_robot_bringup:/build/rpi_robot_slam:/build/rplidar_ros:/opt/ros/foxy LD_LIBRARY_PATH=/home/smartway/ros2_ws/install/nav2_behavior_tree/lib:/home/smartway/ros2_ws/install/nav2_util/lib:/home/smartway/ros2_ws/install/nav2_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/smartway/ros2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/smartway/ros2_ws/src/navigation2/nav2_bt_navigator -DCMAKE_INSTALL_PREFIX=/home/smartway/ros2_ws/install/nav2_bt_navigator
+[0.412s] -- The C compiler identification is GNU 9.4.0
+[0.665s] -- The CXX compiler identification is GNU 9.4.0
+[0.686s] -- Check for working C compiler: /usr/bin/cc
+[1.027s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.031s] -- Detecting C compiler ABI info
+[1.371s] -- Detecting C compiler ABI info - done
+[1.409s] -- Detecting C compile features
+[1.411s] -- Detecting C compile features - done
+[1.425s] -- Check for working CXX compiler: /usr/bin/c++
+[1.807s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.811s] -- Detecting CXX compiler ABI info
+[2.209s] -- Detecting CXX compiler ABI info - done
+[2.253s] -- Detecting CXX compile features
+[2.255s] -- Detecting CXX compile features - done
+[2.284s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.450s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.450s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.814s] -- Found nav2_common: 0.4.7 (/home/smartway/ros2_ws/install/nav2_common/share/nav2_common/cmake)
+[3.839s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[4.254s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.328s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.022s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.307s] -- Found FastRTPS: /opt/ros/foxy/include  
+[5.998s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.348s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[6.359s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.363s] -- Looking for pthread.h
+[6.727s] -- Looking for pthread.h - found
+[6.728s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.085s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[7.086s] -- Looking for pthread_create in pthreads
+[7.417s] -- Looking for pthread_create in pthreads - not found
+[7.418s] -- Looking for pthread_create in pthread
+[7.775s] -- Looking for pthread_create in pthread - found
+[7.780s] -- Found Threads: TRUE  
+[8.546s] -- Found rclcpp_action: 2.4.2 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[8.934s] -- Found rclcpp_lifecycle: 2.4.2 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[9.119s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[9.264s] -- Found nav2_behavior_tree: 0.4.7 (/home/smartway/ros2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake)
+[12.426s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[12.454s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[14.069s] -- Setting build type to Release as none was specified.
+[19.967s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[20.634s] -- Added test 'copyright' to check source files copyright and LICENSE
+[20.676s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[20.678s] -- Configured cppcheck include dirs: /home/smartway/ros2_ws/src/navigation2/nav2_bt_navigator/include
+[20.679s] -- Configured cppcheck exclude dirs and/or files: 
+[20.718s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[20.718s] -- Configured cpplint exclude dirs and/or files: 
+[20.737s] -- Added test 'lint_cmake' to check CMake code style
+[20.769s] -- Added test 'uncrustify' to check C / C++ code style
+[20.769s] -- Configured uncrustify additional arguments: 
+[20.785s] -- Added test 'xmllint' to check XML markup files
+[20.892s] -- Configuring done
+[21.748s] -- Generating done
+[21.760s] -- Build files have been written to: /home/smartway/ros2_ws/build/nav2_bt_navigator
+[21.862s] Invoked command in '/home/smartway/ros2_ws/build/nav2_bt_navigator' returned '0': AMENT_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_behavior_tree:/home/smartway/ros2_ws/install/nav2_util:/home/smartway/ros2_ws/install/nav2_msgs:/home/smartway/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_behavior_tree:/home/smartway/ros2_ws/install/nav2_util:/home/smartway/ros2_ws/install/nav2_msgs:/home/smartway/ros2_ws/install/nav2_common:/build/rpi_robot_action_interfaces:/build/rpi_robot_bringup:/build/rpi_robot_slam:/build/rplidar_ros:/opt/ros/foxy LD_LIBRARY_PATH=/home/smartway/ros2_ws/install/nav2_behavior_tree/lib:/home/smartway/ros2_ws/install/nav2_util/lib:/home/smartway/ros2_ws/install/nav2_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/smartway/ros2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/smartway/ros2_ws/src/navigation2/nav2_bt_navigator -DCMAKE_INSTALL_PREFIX=/home/smartway/ros2_ws/install/nav2_bt_navigator
+[21.873s] Invoking command in '/home/smartway/ros2_ws/build/nav2_bt_navigator': AMENT_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_behavior_tree:/home/smartway/ros2_ws/install/nav2_util:/home/smartway/ros2_ws/install/nav2_msgs:/home/smartway/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_behavior_tree:/home/smartway/ros2_ws/install/nav2_util:/home/smartway/ros2_ws/install/nav2_msgs:/home/smartway/ros2_ws/install/nav2_common:/build/rpi_robot_action_interfaces:/build/rpi_robot_bringup:/build/rpi_robot_slam:/build/rplidar_ros:/opt/ros/foxy LD_LIBRARY_PATH=/home/smartway/ros2_ws/install/nav2_behavior_tree/lib:/home/smartway/ros2_ws/install/nav2_util/lib:/home/smartway/ros2_ws/install/nav2_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/smartway/ros2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/smartway/ros2_ws/build/nav2_bt_navigator -- -j4 -l4
+[22.537s] [35m[1mScanning dependencies of target bt_navigator_core[0m
+[23.380s] [ 20%] [32mBuilding CXX object CMakeFiles/bt_navigator_core.dir/src/ros_topic_logger.cpp.o[0m
+[23.383s] [ 40%] [32mBuilding CXX object CMakeFiles/bt_navigator_core.dir/src/bt_navigator.cpp.o[0m
+[123.079s] [ 60%] [32m[1mLinking CXX shared library libbt_navigator_core.so[0m
+[125.489s] [ 60%] Built target bt_navigator_core
+[125.579s] [35m[1mScanning dependencies of target bt_navigator[0m
+[126.018s] [ 80%] [32mBuilding CXX object CMakeFiles/bt_navigator.dir/src/main.cpp.o[0m
+[145.514s] [100%] [32m[1mLinking CXX executable bt_navigator[0m
+[148.984s] [100%] Built target bt_navigator
+[149.072s] Invoked command in '/home/smartway/ros2_ws/build/nav2_bt_navigator' returned '0': AMENT_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_behavior_tree:/home/smartway/ros2_ws/install/nav2_util:/home/smartway/ros2_ws/install/nav2_msgs:/home/smartway/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_behavior_tree:/home/smartway/ros2_ws/install/nav2_util:/home/smartway/ros2_ws/install/nav2_msgs:/home/smartway/ros2_ws/install/nav2_common:/build/rpi_robot_action_interfaces:/build/rpi_robot_bringup:/build/rpi_robot_slam:/build/rplidar_ros:/opt/ros/foxy LD_LIBRARY_PATH=/home/smartway/ros2_ws/install/nav2_behavior_tree/lib:/home/smartway/ros2_ws/install/nav2_util/lib:/home/smartway/ros2_ws/install/nav2_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/smartway/ros2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/smartway/ros2_ws/build/nav2_bt_navigator -- -j4 -l4
+[149.282s] Invoking command in '/home/smartway/ros2_ws/build/nav2_bt_navigator': AMENT_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_behavior_tree:/home/smartway/ros2_ws/install/nav2_util:/home/smartway/ros2_ws/install/nav2_msgs:/home/smartway/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_behavior_tree:/home/smartway/ros2_ws/install/nav2_util:/home/smartway/ros2_ws/install/nav2_msgs:/home/smartway/ros2_ws/install/nav2_common:/build/rpi_robot_action_interfaces:/build/rpi_robot_bringup:/build/rpi_robot_slam:/build/rplidar_ros:/opt/ros/foxy LD_LIBRARY_PATH=/home/smartway/ros2_ws/install/nav2_behavior_tree/lib:/home/smartway/ros2_ws/install/nav2_util/lib:/home/smartway/ros2_ws/install/nav2_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/smartway/ros2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/smartway/ros2_ws/build/nav2_bt_navigator
+[149.345s] -- Install configuration: "Release"
+[149.346s] -- Installing: /home/smartway/ros2_ws/install/nav2_bt_navigator/lib/libbt_navigator_core.so
+[149.357s] -- Set runtime path of "/home/smartway/ros2_ws/install/nav2_bt_navigator/lib/libbt_navigator_core.so" to ""
+[149.358s] -- Installing: /home/smartway/ros2_ws/install/nav2_bt_navigator/lib/nav2_bt_navigator/bt_navigator
+[149.361s] -- Set runtime path of "/home/smartway/ros2_ws/install/nav2_bt_navigator/lib/nav2_bt_navigator/bt_navigator" to ""
+[149.363s] -- Installing: /home/smartway/ros2_ws/install/nav2_bt_navigator/include/
+[149.364s] -- Installing: /home/smartway/ros2_ws/install/nav2_bt_navigator/include//nav2_bt_navigator
+[149.365s] -- Installing: /home/smartway/ros2_ws/install/nav2_bt_navigator/include//nav2_bt_navigator/bt_navigator.hpp
+[149.367s] -- Installing: /home/smartway/ros2_ws/install/nav2_bt_navigator/include//nav2_bt_navigator/ros_topic_logger.hpp
+[149.368s] -- Installing: /home/smartway/ros2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees
+[149.369s] -- Installing: /home/smartway/ros2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_w_replanning_distance.xml
+[149.370s] -- Installing: /home/smartway/ros2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_w_replanning_speed.xml
+[149.371s] -- Installing: /home/smartway/ros2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_w_replanning_and_round_robin_recovery.xml
+[149.372s] -- Installing: /home/smartway/ros2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_w_replanning_and_recovery.xml
+[149.373s] -- Installing: /home/smartway/ros2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/follow_point.xml
+[149.374s] -- Installing: /home/smartway/ros2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_w_replanning_time.xml
+[149.375s] -- Installing: /home/smartway/ros2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/library_path.sh
+[149.376s] -- Installing: /home/smartway/ros2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/library_path.dsv
+[149.377s] -- Installing: /home/smartway/ros2_ws/install/nav2_bt_navigator/share/ament_index/resource_index/package_run_dependencies/nav2_bt_navigator
+[149.379s] -- Installing: /home/smartway/ros2_ws/install/nav2_bt_navigator/share/ament_index/resource_index/parent_prefix_path/nav2_bt_navigator
+[149.381s] -- Installing: /home/smartway/ros2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/ament_prefix_path.sh
+[149.387s] -- Installing: /home/smartway/ros2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/ament_prefix_path.dsv
+[149.396s] -- Installing: /home/smartway/ros2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/path.sh
+[149.397s] -- Installing: /home/smartway/ros2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/path.dsv
+[149.398s] -- Installing: /home/smartway/ros2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/local_setup.bash
+[149.399s] -- Installing: /home/smartway/ros2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/local_setup.sh
+[149.400s] -- Installing: /home/smartway/ros2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/local_setup.zsh
+[149.400s] -- Installing: /home/smartway/ros2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/local_setup.dsv
+[149.402s] -- Installing: /home/smartway/ros2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/package.dsv
+[149.403s] -- Installing: /home/smartway/ros2_ws/install/nav2_bt_navigator/share/ament_index/resource_index/packages/nav2_bt_navigator
+[149.405s] -- Installing: /home/smartway/ros2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/cmake/ament_cmake_export_include_directories-extras.cmake
+[149.407s] -- Installing: /home/smartway/ros2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/cmake/ament_cmake_export_libraries-extras.cmake
+[149.420s] -- Installing: /home/smartway/ros2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/cmake/ament_cmake_export_dependencies-extras.cmake
+[149.421s] -- Installing: /home/smartway/ros2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/cmake/nav2_bt_navigatorConfig.cmake
+[149.425s] -- Installing: /home/smartway/ros2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/cmake/nav2_bt_navigatorConfig-version.cmake
+[149.427s] -- Installing: /home/smartway/ros2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/package.xml
+[149.447s] Invoked command in '/home/smartway/ros2_ws/build/nav2_bt_navigator' returned '0': AMENT_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_behavior_tree:/home/smartway/ros2_ws/install/nav2_util:/home/smartway/ros2_ws/install/nav2_msgs:/home/smartway/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_behavior_tree:/home/smartway/ros2_ws/install/nav2_util:/home/smartway/ros2_ws/install/nav2_msgs:/home/smartway/ros2_ws/install/nav2_common:/build/rpi_robot_action_interfaces:/build/rpi_robot_bringup:/build/rpi_robot_slam:/build/rplidar_ros:/opt/ros/foxy LD_LIBRARY_PATH=/home/smartway/ros2_ws/install/nav2_behavior_tree/lib:/home/smartway/ros2_ws/install/nav2_util/lib:/home/smartway/ros2_ws/install/nav2_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/smartway/ros2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/smartway/ros2_ws/build/nav2_bt_navigator

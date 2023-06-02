@@ -1,0 +1,6 @@
+Invoking command in '/home/smartway/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/smartway/ros2_ws/rplidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/smartway/ros2_ws/install/rplidar_ros
+Invoked command in '/home/smartway/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/smartway/ros2_ws/rplidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/smartway/ros2_ws/install/rplidar_ros
+Invoking command in '/home/smartway/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/smartway/ros2_ws/build/rplidar_ros -- -j4 -l4
+Invoked command in '/home/smartway/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/smartway/ros2_ws/build/rplidar_ros -- -j4 -l4
+Invoking command in '/home/smartway/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/smartway/ros2_ws/build/rplidar_ros
+Invoked command in '/home/smartway/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/smartway/ros2_ws/build/rplidar_ros

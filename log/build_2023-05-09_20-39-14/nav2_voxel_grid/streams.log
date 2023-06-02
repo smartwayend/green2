@@ -1,0 +1,100 @@
+[0.113s] Invoking command in '/home/smartway/ros2_ws/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_common:/build/rpi_robot_action_interfaces:/build/rpi_robot_bringup:/build/rpi_robot_slam:/build/rplidar_ros:/opt/ros/foxy PYTHONPATH=/home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/smartway/ros2_ws/src/navigation2/nav2_voxel_grid -DCMAKE_INSTALL_PREFIX=/home/smartway/ros2_ws/install/nav2_voxel_grid
+[0.499s] -- The C compiler identification is GNU 9.4.0
+[1.038s] -- The CXX compiler identification is GNU 9.4.0
+[1.065s] -- Check for working C compiler: /usr/bin/cc
+[1.639s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.643s] -- Detecting C compiler ABI info
+[2.133s] -- Detecting C compiler ABI info - done
+[2.179s] -- Detecting C compile features
+[2.182s] -- Detecting C compile features - done
+[2.204s] -- Check for working CXX compiler: /usr/bin/c++
+[2.655s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.662s] -- Detecting CXX compiler ABI info
+[3.169s] -- Detecting CXX compiler ABI info - done
+[3.240s] -- Detecting CXX compile features
+[3.243s] -- Detecting CXX compile features - done
+[3.285s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.489s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.490s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.264s] -- Found nav2_common: 0.4.7 (/home/smartway/ros2_ws/install/nav2_common/share/nav2_common/cmake)
+[5.308s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[6.111s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.244s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[8.232s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[9.041s] -- Found FastRTPS: /opt/ros/foxy/include  
+[10.740s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.719s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[11.735s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.742s] -- Looking for pthread.h
+[13.032s] -- Looking for pthread.h - found
+[13.035s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[14.224s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[14.228s] -- Looking for pthread_create in pthreads
+[15.443s] -- Looking for pthread_create in pthreads - not found
+[15.444s] -- Looking for pthread_create in pthread
+[16.883s] -- Looking for pthread_create in pthread - found
+[16.895s] -- Found Threads: TRUE  
+[19.269s] -- Setting build type to Release as none was specified.
+[19.337s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[20.945s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[20.963s] -- Check if compiler accepts -pthread
+[22.348s] -- Check if compiler accepts -pthread - yes
+[22.452s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[22.454s] -- Configured cppcheck include dirs: /home/smartway/ros2_ws/src/navigation2/nav2_voxel_grid/include
+[22.455s] -- Configured cppcheck exclude dirs and/or files: 
+[22.472s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[22.473s] -- Configured cpplint exclude dirs and/or files: 
+[22.496s] -- Added test 'lint_cmake' to check CMake code style
+[22.519s] -- Added test 'uncrustify' to check C / C++ code style
+[22.520s] -- Configured uncrustify additional arguments: 
+[22.527s] -- Added test 'xmllint' to check XML markup files
+[22.635s] -- Configuring done
+[22.843s] -- Generating done
+[22.868s] -- Build files have been written to: /home/smartway/ros2_ws/build/nav2_voxel_grid
+[22.979s] Invoked command in '/home/smartway/ros2_ws/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_common:/build/rpi_robot_action_interfaces:/build/rpi_robot_bringup:/build/rpi_robot_slam:/build/rplidar_ros:/opt/ros/foxy PYTHONPATH=/home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/smartway/ros2_ws/src/navigation2/nav2_voxel_grid -DCMAKE_INSTALL_PREFIX=/home/smartway/ros2_ws/install/nav2_voxel_grid
+[22.995s] Invoking command in '/home/smartway/ros2_ws/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_common:/build/rpi_robot_action_interfaces:/build/rpi_robot_bringup:/build/rpi_robot_slam:/build/rplidar_ros:/opt/ros/foxy PYTHONPATH=/home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/smartway/ros2_ws/build/nav2_voxel_grid -- -j4 -l4
+[23.624s] [35m[1mScanning dependencies of target gtest_main[0m
+[23.663s] [35m[1mScanning dependencies of target voxel_grid[0m
+[23.680s] [35m[1mScanning dependencies of target gtest[0m
+[23.859s] [ 12%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[23.952s] [ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[24.109s] [ 37%] [32mBuilding CXX object CMakeFiles/voxel_grid.dir/src/voxel_grid.cpp.o[0m
+[36.090s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[36.526s] [ 50%] Built target gtest_main
+[49.585s] [ 62%] [32m[1mLinking CXX shared library libvoxel_grid.so[0m
+[51.128s] [ 62%] Built target voxel_grid
+[103.454s] [ 75%] [32m[1mLinking CXX static library libgtest.a[0m
+[103.848s] [ 75%] Built target gtest
+[104.193s] [35m[1mScanning dependencies of target voxel_grid_tests[0m
+[104.848s] [ 87%] [32mBuilding CXX object test/CMakeFiles/voxel_grid_tests.dir/voxel_grid_tests.cpp.o[0m
+[129.386s] [100%] [32m[1mLinking CXX executable voxel_grid_tests[0m
+[130.173s] [100%] Built target voxel_grid_tests
+[130.230s] Invoked command in '/home/smartway/ros2_ws/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_common:/build/rpi_robot_action_interfaces:/build/rpi_robot_bringup:/build/rpi_robot_slam:/build/rplidar_ros:/opt/ros/foxy PYTHONPATH=/home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/smartway/ros2_ws/build/nav2_voxel_grid -- -j4 -l4
+[130.427s] Invoking command in '/home/smartway/ros2_ws/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_common:/build/rpi_robot_action_interfaces:/build/rpi_robot_bringup:/build/rpi_robot_slam:/build/rplidar_ros:/opt/ros/foxy PYTHONPATH=/home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/smartway/ros2_ws/build/nav2_voxel_grid
+[130.488s] -- Install configuration: "Release"
+[130.490s] -- Installing: /home/smartway/ros2_ws/install/nav2_voxel_grid/lib/libvoxel_grid.so
+[130.499s] -- Set runtime path of "/home/smartway/ros2_ws/install/nav2_voxel_grid/lib/libvoxel_grid.so" to ""
+[130.500s] -- Installing: /home/smartway/ros2_ws/install/nav2_voxel_grid/include
+[130.502s] -- Installing: /home/smartway/ros2_ws/install/nav2_voxel_grid/include/nav2_voxel_grid
+[130.504s] -- Installing: /home/smartway/ros2_ws/install/nav2_voxel_grid/include/nav2_voxel_grid/voxel_grid.hpp
+[130.507s] -- Installing: /home/smartway/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.sh
+[130.509s] -- Installing: /home/smartway/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.dsv
+[130.512s] -- Installing: /home/smartway/ros2_ws/install/nav2_voxel_grid/share/ament_index/resource_index/package_run_dependencies/nav2_voxel_grid
+[130.515s] -- Installing: /home/smartway/ros2_ws/install/nav2_voxel_grid/share/ament_index/resource_index/parent_prefix_path/nav2_voxel_grid
+[130.518s] -- Installing: /home/smartway/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.sh
+[130.521s] -- Installing: /home/smartway/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.dsv
+[130.523s] -- Installing: /home/smartway/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.sh
+[130.526s] -- Installing: /home/smartway/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.dsv
+[130.528s] -- Installing: /home/smartway/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.bash
+[130.531s] -- Installing: /home/smartway/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.sh
+[130.533s] -- Installing: /home/smartway/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.zsh
+[130.536s] -- Installing: /home/smartway/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.dsv
+[130.539s] -- Installing: /home/smartway/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/package.dsv
+[130.542s] -- Installing: /home/smartway/ros2_ws/install/nav2_voxel_grid/share/ament_index/resource_index/packages/nav2_voxel_grid
+[130.545s] -- Installing: /home/smartway/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_dependencies-extras.cmake
+[130.548s] -- Installing: /home/smartway/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_include_directories-extras.cmake
+[130.551s] -- Installing: /home/smartway/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_libraries-extras.cmake
+[130.554s] -- Installing: /home/smartway/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig.cmake
+[130.556s] -- Installing: /home/smartway/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig-version.cmake
+[130.558s] -- Installing: /home/smartway/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/package.xml
+[130.578s] Invoked command in '/home/smartway/ros2_ws/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_common:/build/rpi_robot_action_interfaces:/build/rpi_robot_bringup:/build/rpi_robot_slam:/build/rplidar_ros:/opt/ros/foxy PYTHONPATH=/home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/smartway/ros2_ws/build/nav2_voxel_grid

@@ -1,0 +1,1 @@
+Invoking command in '/home/smartway/ros2_ws/build/rpi_robot_action_interfaces': /usr/bin/cmake --build /home/smartway/ros2_ws/build/rpi_robot_action_interfaces -- -j4 -l4

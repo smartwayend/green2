@@ -1,0 +1,21 @@
+[8.820s] Invoking command in '/home/smartway/ros2_ws/src/navigation2/nav2_bringup/nav2_gazebo_spawner': PYTHONPATH=/home/smartway/ros2_ws/build/nav2_gazebo_spawner/prefix_override:/home/smartway/ros2_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/nav2_gazebo_spawner build --build-base /home/smartway/ros2_ws/build/nav2_gazebo_spawner/build install --record /home/smartway/ros2_ws/build/nav2_gazebo_spawner/install.log --install-scripts $base/lib/nav2_gazebo_spawner --single-version-externally-managed
+[11.747s] running egg_info
+[11.751s] writing ../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/PKG-INFO
+[11.753s] writing dependency_links to ../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/dependency_links.txt
+[11.754s] writing entry points to ../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/entry_points.txt
+[11.755s] writing requirements to ../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/requires.txt
+[11.756s] writing top-level names to ../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/top_level.txt
+[11.935s] reading manifest file '../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/SOURCES.txt'
+[11.941s] writing manifest file '../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/SOURCES.txt'
+[11.948s] running build
+[11.951s] running build_py
+[11.953s] running install
+[11.967s] running install_lib
+[11.973s] running install_data
+[12.001s] running install_egg_info
+[12.010s] removing '/home/smartway/ros2_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages/nav2_gazebo_spawner-0.3.0-py3.8.egg-info' (and everything under it)
+[12.029s] Copying ../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info to /home/smartway/ros2_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages/nav2_gazebo_spawner-0.3.0-py3.8.egg-info
+[12.031s] running install_scripts
+[12.104s] Installing nav2_gazebo_spawner script to /home/smartway/ros2_ws/install/nav2_gazebo_spawner/lib/nav2_gazebo_spawner
+[12.109s] writing list of installed files to '/home/smartway/ros2_ws/build/nav2_gazebo_spawner/install.log'
+[12.241s] Invoked command in '/home/smartway/ros2_ws/src/navigation2/nav2_bringup/nav2_gazebo_spawner' returned '0': PYTHONPATH=/home/smartway/ros2_ws/build/nav2_gazebo_spawner/prefix_override:/home/smartway/ros2_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/nav2_gazebo_spawner build --build-base /home/smartway/ros2_ws/build/nav2_gazebo_spawner/build install --record /home/smartway/ros2_ws/build/nav2_gazebo_spawner/install.log --install-scripts $base/lib/nav2_gazebo_spawner --single-version-externally-managed

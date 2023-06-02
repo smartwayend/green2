@@ -1,0 +1,48 @@
+[0.271s] Invoking command in '/home/smartway/ros2_ws/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/smartway/ros2_ws/src/navigation2/nav2_common -DCMAKE_INSTALL_PREFIX=/home/smartway/ros2_ws/install/nav2_common
+[2.066s] -- Found ament_cmake_core: 0.9.11 (/opt/ros/foxy/share/ament_cmake_core/cmake)
+[2.071s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.072s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.073s] -- Found ament_cmake_python: 0.9.11 (/opt/ros/foxy/share/ament_cmake_python/cmake)
+[2.471s] -- Configuring done
+[2.484s] -- Generating done
+[2.490s] -- Build files have been written to: /home/smartway/ros2_ws/build/nav2_common
+[2.516s] Invoked command in '/home/smartway/ros2_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/smartway/ros2_ws/src/navigation2/nav2_common -DCMAKE_INSTALL_PREFIX=/home/smartway/ros2_ws/install/nav2_common
+[2.524s] Invoking command in '/home/smartway/ros2_ws/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/smartway/ros2_ws/build/nav2_common -- -j4 -l4
+[2.780s] Invoked command in '/home/smartway/ros2_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/smartway/ros2_ws/build/nav2_common -- -j4 -l4
+[3.036s] Invoking command in '/home/smartway/ros2_ws/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/smartway/ros2_ws/build/nav2_common
+[3.145s] -- Install configuration: ""
+[3.150s] -- Installing: /home/smartway/ros2_ws/install/nav2_common/share/nav2_common/environment/pythonpath.sh
+[3.153s] -- Installing: /home/smartway/ros2_ws/install/nav2_common/share/nav2_common/environment/pythonpath.dsv
+[3.156s] -- Installing: /home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common
+[3.158s] -- Installing: /home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch
+[3.160s] -- Installing: /home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/has_node_params.py
+[3.163s] -- Installing: /home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/replace_string.py
+[3.166s] -- Installing: /home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/__init__.py
+[3.168s] -- Installing: /home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/rewritten_yaml.py
+[3.182s] -- Installing: /home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/__init__.py
+[3.449s] Listing '/home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common'...
+[3.450s] Compiling '/home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/__init__.py'...
+[3.451s] Listing '/home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch'...
+[3.451s] Compiling '/home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/__init__.py'...
+[3.452s] Compiling '/home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/has_node_params.py'...
+[3.452s] Compiling '/home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/replace_string.py'...
+[3.453s] Compiling '/home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/rewritten_yaml.py'...
+[3.499s] -- Installing: /home/smartway/ros2_ws/install/nav2_common/share/ament_index/resource_index/package_run_dependencies/nav2_common
+[3.502s] -- Installing: /home/smartway/ros2_ws/install/nav2_common/share/ament_index/resource_index/parent_prefix_path/nav2_common
+[3.505s] -- Installing: /home/smartway/ros2_ws/install/nav2_common/share/nav2_common/environment/ament_prefix_path.sh
+[3.508s] -- Installing: /home/smartway/ros2_ws/install/nav2_common/share/nav2_common/environment/ament_prefix_path.dsv
+[3.511s] -- Installing: /home/smartway/ros2_ws/install/nav2_common/share/nav2_common/environment/path.sh
+[3.514s] -- Installing: /home/smartway/ros2_ws/install/nav2_common/share/nav2_common/environment/path.dsv
+[3.516s] -- Installing: /home/smartway/ros2_ws/install/nav2_common/share/nav2_common/local_setup.bash
+[3.519s] -- Installing: /home/smartway/ros2_ws/install/nav2_common/share/nav2_common/local_setup.sh
+[3.523s] -- Installing: /home/smartway/ros2_ws/install/nav2_common/share/nav2_common/local_setup.zsh
+[3.527s] -- Installing: /home/smartway/ros2_ws/install/nav2_common/share/nav2_common/local_setup.dsv
+[3.530s] -- Installing: /home/smartway/ros2_ws/install/nav2_common/share/nav2_common/package.dsv
+[3.534s] -- Installing: /home/smartway/ros2_ws/install/nav2_common/share/ament_index/resource_index/packages/nav2_common
+[3.538s] -- Installing: /home/smartway/ros2_ws/install/nav2_common/share/nav2_common/cmake/nav2_common-extras.cmake
+[3.544s] -- Installing: /home/smartway/ros2_ws/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig.cmake
+[3.546s] -- Installing: /home/smartway/ros2_ws/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig-version.cmake
+[3.549s] -- Installing: /home/smartway/ros2_ws/install/nav2_common/share/nav2_common/package.xml
+[3.551s] -- Up-to-date: /home/smartway/ros2_ws/install/nav2_common/share/nav2_common/cmake
+[3.552s] -- Installing: /home/smartway/ros2_ws/install/nav2_common/share/nav2_common/cmake/nav2_package.cmake
+[3.579s] Invoked command in '/home/smartway/ros2_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/smartway/ros2_ws/build/nav2_common

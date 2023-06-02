@@ -1,0 +1,34 @@
+[0.169s] Invoking command in '/home/smartway/ros2_ws/build/nav_2d_msgs': /usr/bin/cmake /home/smartway/ros2_ws/src/navigation2/nav2_dwb_controller/nav_2d_msgs -DCMAKE_INSTALL_PREFIX=/home/smartway/ros2_ws/install/nav_2d_msgs
+[1.344s] -- The C compiler identification is GNU 9.4.0
+[1.345s] -- The CXX compiler identification is GNU 9.4.0
+[1.346s] -- Check for working C compiler: /usr/bin/cc
+[1.347s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.348s] -- Detecting C compiler ABI info
+[1.356s] -- Detecting C compiler ABI info - done
+[1.392s] -- Detecting C compile features
+[1.402s] -- Detecting C compile features - done
+[1.418s] -- Check for working CXX compiler: /usr/bin/c++
+[1.868s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.874s] -- Detecting CXX compiler ABI info
+[2.277s] -- Detecting CXX compiler ABI info - done
+[2.336s] -- Detecting CXX compile features
+[2.337s] -- Detecting CXX compile features - done
+[2.507s] CMake Error at CMakeLists.txt:4 (find_package):
+[2.508s]   By not providing "Findgeometry_msgs.cmake" in CMAKE_MODULE_PATH this
+[2.508s]   project has asked CMake to find a package configuration file provided by
+[2.509s]   "geometry_msgs", but CMake did not find one.
+[2.509s] 
+[2.510s]   Could not find a package configuration file provided by "geometry_msgs"
+[2.518s]   with any of the following names:
+[2.519s] 
+[2.525s]     geometry_msgsConfig.cmake
+[2.527s]     geometry_msgs-config.cmake
+[2.527s] 
+[2.528s]   Add the installation prefix of "geometry_msgs" to CMAKE_PREFIX_PATH or set
+[2.528s]   "geometry_msgs_DIR" to a directory containing one of the above files.  If
+[2.529s]   "geometry_msgs" provides a separate development package or SDK, be sure it
+[2.529s]   has been installed.
+[2.530s] 
+[2.531s] 
+[2.531s] -- Configuring incomplete, errors occurred!
+[2.532s] See also "/home/smartway/ros2_ws/build/nav_2d_msgs/CMakeFiles/CMakeOutput.log".

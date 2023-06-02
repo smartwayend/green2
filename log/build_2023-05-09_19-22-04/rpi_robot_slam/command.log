@@ -1,0 +1,6 @@
+Invoking command in '/home/smartway/ros2_ws/build/rpi_robot_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/smartway/ros2_ws/rpi-robot-ros-foxy/rpi_robot_slam -DCMAKE_INSTALL_PREFIX=/home/smartway/ros2_ws/install/rpi_robot_slam
+Invoked command in '/home/smartway/ros2_ws/build/rpi_robot_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/smartway/ros2_ws/rpi-robot-ros-foxy/rpi_robot_slam -DCMAKE_INSTALL_PREFIX=/home/smartway/ros2_ws/install/rpi_robot_slam
+Invoking command in '/home/smartway/ros2_ws/build/rpi_robot_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/smartway/ros2_ws/build/rpi_robot_slam -- -j4 -l4
+Invoked command in '/home/smartway/ros2_ws/build/rpi_robot_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/smartway/ros2_ws/build/rpi_robot_slam -- -j4 -l4
+Invoking command in '/home/smartway/ros2_ws/build/rpi_robot_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/smartway/ros2_ws/build/rpi_robot_slam
+Invoked command in '/home/smartway/ros2_ws/build/rpi_robot_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/smartway/ros2_ws/build/rpi_robot_slam

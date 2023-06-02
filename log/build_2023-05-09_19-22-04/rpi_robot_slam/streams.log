@@ -1,0 +1,54 @@
+[1.838s] Invoking command in '/home/smartway/ros2_ws/build/rpi_robot_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/smartway/ros2_ws/rpi-robot-ros-foxy/rpi_robot_slam -DCMAKE_INSTALL_PREFIX=/home/smartway/ros2_ws/install/rpi_robot_slam
+[2.295s] -- The C compiler identification is GNU 9.4.0
+[2.719s] -- The CXX compiler identification is GNU 9.4.0
+[2.759s] -- Check for working C compiler: /usr/bin/cc
+[3.237s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.244s] -- Detecting C compiler ABI info
+[3.697s] -- Detecting C compiler ABI info - done
+[3.757s] -- Detecting C compile features
+[3.760s] -- Detecting C compile features - done
+[3.775s] -- Check for working CXX compiler: /usr/bin/c++
+[4.241s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.247s] -- Detecting CXX compiler ABI info
+[4.729s] -- Detecting CXX compiler ABI info - done
+[4.778s] -- Detecting CXX compile features
+[4.782s] -- Detecting CXX compile features - done
+[4.811s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[5.012s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[5.014s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.548s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[7.328s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.345s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.350s] -- Added test 'lint_cmake' to check CMake code style
+[7.350s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[7.363s] -- Added test 'xmllint' to check XML markup files
+[7.382s] -- Configuring done
+[7.399s] -- Generating done
+[7.400s] -- Build files have been written to: /home/smartway/ros2_ws/build/rpi_robot_slam
+[7.417s] Invoked command in '/home/smartway/ros2_ws/build/rpi_robot_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/smartway/ros2_ws/rpi-robot-ros-foxy/rpi_robot_slam -DCMAKE_INSTALL_PREFIX=/home/smartway/ros2_ws/install/rpi_robot_slam
+[7.431s] Invoking command in '/home/smartway/ros2_ws/build/rpi_robot_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/smartway/ros2_ws/build/rpi_robot_slam -- -j4 -l4
+[7.728s] Invoked command in '/home/smartway/ros2_ws/build/rpi_robot_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/smartway/ros2_ws/build/rpi_robot_slam -- -j4 -l4
+[8.107s] Invoking command in '/home/smartway/ros2_ws/build/rpi_robot_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/smartway/ros2_ws/build/rpi_robot_slam
+[8.169s] -- Install configuration: ""
+[8.170s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_slam/share/rpi_robot_slam/launch
+[8.171s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_slam/share/rpi_robot_slam/launch/rpi_robot_slam.launch.py
+[8.173s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_slam/share/rpi_robot_slam/launch/cartographer.launch.py
+[8.174s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_slam/share/rpi_robot_slam/launch/occupancy_grid.launch.py
+[8.176s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_slam/share/rpi_robot_slam/config
+[8.176s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_slam/share/rpi_robot_slam/config/rpi_robot_lds_2d.lua
+[8.178s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_slam/share/ament_index/resource_index/package_run_dependencies/rpi_robot_slam
+[8.180s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_slam/share/ament_index/resource_index/parent_prefix_path/rpi_robot_slam
+[8.189s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_slam/share/rpi_robot_slam/environment/ament_prefix_path.sh
+[8.191s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_slam/share/rpi_robot_slam/environment/ament_prefix_path.dsv
+[8.192s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_slam/share/rpi_robot_slam/environment/path.sh
+[8.194s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_slam/share/rpi_robot_slam/environment/path.dsv
+[8.196s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_slam/share/rpi_robot_slam/local_setup.bash
+[8.197s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_slam/share/rpi_robot_slam/local_setup.sh
+[8.199s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_slam/share/rpi_robot_slam/local_setup.zsh
+[8.201s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_slam/share/rpi_robot_slam/local_setup.dsv
+[8.203s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_slam/share/rpi_robot_slam/package.dsv
+[8.205s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_slam/share/ament_index/resource_index/packages/rpi_robot_slam
+[8.208s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_slam/share/rpi_robot_slam/cmake/rpi_robot_slamConfig.cmake
+[8.210s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_slam/share/rpi_robot_slam/cmake/rpi_robot_slamConfig-version.cmake
+[8.212s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_slam/share/rpi_robot_slam/package.xml
+[8.234s] Invoked command in '/home/smartway/ros2_ws/build/rpi_robot_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/smartway/ros2_ws/build/rpi_robot_slam

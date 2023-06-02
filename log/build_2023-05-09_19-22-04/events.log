@@ -1,0 +1,808 @@
+[0.000000] (-) TimerEvent: {}
+[0.001044] (rpi_robot_action_interfaces) JobQueued: {'identifier': 'rpi_robot_action_interfaces', 'dependencies': OrderedDict()}
+[0.001335] (rpi_robot_bringup) JobQueued: {'identifier': 'rpi_robot_bringup', 'dependencies': OrderedDict()}
+[0.002172] (rpi_robot_control) JobQueued: {'identifier': 'rpi_robot_control', 'dependencies': OrderedDict()}
+[0.002685] (rpi_robot_slam) JobQueued: {'identifier': 'rpi_robot_slam', 'dependencies': OrderedDict()}
+[0.003699] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.003885] (rpi_robot_action_interfaces) JobStarted: {'identifier': 'rpi_robot_action_interfaces'}
+[0.057796] (rpi_robot_bringup) JobStarted: {'identifier': 'rpi_robot_bringup'}
+[0.099606] (-) TimerEvent: {}
+[0.102944] (rpi_robot_control) JobStarted: {'identifier': 'rpi_robot_control'}
+[0.165061] (rpi_robot_slam) JobStarted: {'identifier': 'rpi_robot_slam'}
+[0.201022] (-) TimerEvent: {}
+[0.223838] (rpi_robot_action_interfaces) JobProgress: {'identifier': 'rpi_robot_action_interfaces', 'progress': 'cmake'}
+[0.225049] (rpi_robot_action_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/smartway/ros2_ws/rpi-robot-ros-foxy/rpi_robot_action_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/smartway/ros2_ws/install/rpi_robot_action_interfaces'], 'cwd': '/home/smartway/ros2_ws/build/rpi_robot_action_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'smartway'), ('SSH_AGENT_PID', '1699'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/smartway/ros2_ws/install/rplidar_ros/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/smartway'), ('OLDPWD', '/home/smartway'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1529'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/smartway/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'smartway'), ('JOURNAL_STREAM', '9:36707'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'smartway'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1797,unix/ubuntu:/tmp/.ICE-unix/1797'), ('INVOCATION_ID', '82f99fcfcb5549dd82636849d9ff8b1c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/82f9cb00_cca5_4eca_acce_dcfe39561d60'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/smartway/ros2_ws/install/rplidar_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/smartway/ros2_ws/build/rpi_robot_action_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/smartway/ros2_ws/install/rplidar_ros:/opt/ros/foxy')]), 'shell': False}
+[0.253234] (rpi_robot_bringup) JobProgress: {'identifier': 'rpi_robot_bringup', 'progress': 'cmake'}
+[0.254771] (rpi_robot_bringup) Command: {'cmd': ['/usr/bin/cmake', '/home/smartway/ros2_ws/rpi-robot-ros-foxy/rpi_robot_bringup', '-DCMAKE_INSTALL_PREFIX=/home/smartway/ros2_ws/install/rpi_robot_bringup'], 'cwd': '/home/smartway/ros2_ws/build/rpi_robot_bringup', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'smartway'), ('SSH_AGENT_PID', '1699'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/smartway/ros2_ws/install/rplidar_ros/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/smartway'), ('OLDPWD', '/home/smartway'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1529'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/smartway/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'smartway'), ('JOURNAL_STREAM', '9:36707'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'smartway'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1797,unix/ubuntu:/tmp/.ICE-unix/1797'), ('INVOCATION_ID', '82f99fcfcb5549dd82636849d9ff8b1c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/82f9cb00_cca5_4eca_acce_dcfe39561d60'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/smartway/ros2_ws/install/rplidar_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/smartway/ros2_ws/build/rpi_robot_bringup'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/smartway/ros2_ws/install/rplidar_ros:/opt/ros/foxy')]), 'shell': False}
+[0.300952] (-) TimerEvent: {}
+[0.403123] (-) TimerEvent: {}
+[0.504256] (-) TimerEvent: {}
+[0.606443] (-) TimerEvent: {}
+[0.707955] (-) TimerEvent: {}
+[0.810431] (-) TimerEvent: {}
+[0.912847] (-) TimerEvent: {}
+[1.013884] (-) TimerEvent: {}
+[1.116105] (-) TimerEvent: {}
+[1.218253] (-) TimerEvent: {}
+[1.320082] (-) TimerEvent: {}
+[1.421506] (-) TimerEvent: {}
+[1.523067] (-) TimerEvent: {}
+[1.624048] (-) TimerEvent: {}
+[1.725105] (-) TimerEvent: {}
+[1.826478] (-) TimerEvent: {}
+[1.931389] (-) TimerEvent: {}
+[1.984506] (rpi_robot_slam) JobProgress: {'identifier': 'rpi_robot_slam', 'progress': 'cmake'}
+[1.986962] (rpi_robot_slam) Command: {'cmd': ['/usr/bin/cmake', '/home/smartway/ros2_ws/rpi-robot-ros-foxy/rpi_robot_slam', '-DCMAKE_INSTALL_PREFIX=/home/smartway/ros2_ws/install/rpi_robot_slam'], 'cwd': '/home/smartway/ros2_ws/build/rpi_robot_slam', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'smartway'), ('SSH_AGENT_PID', '1699'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/smartway/ros2_ws/install/rplidar_ros/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/smartway'), ('OLDPWD', '/home/smartway'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1529'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/smartway/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'smartway'), ('JOURNAL_STREAM', '9:36707'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'smartway'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1797,unix/ubuntu:/tmp/.ICE-unix/1797'), ('INVOCATION_ID', '82f99fcfcb5549dd82636849d9ff8b1c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/82f9cb00_cca5_4eca_acce_dcfe39561d60'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/smartway/ros2_ws/install/rplidar_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/smartway/ros2_ws/build/rpi_robot_slam'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/smartway/ros2_ws/install/rplidar_ros:/opt/ros/foxy')]), 'shell': False}
+[2.033790] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[2.036667] (-) TimerEvent: {}
+[2.039633] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[2.041159] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[2.042448] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[2.043776] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.045384] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.058426] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.059392] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.060153] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.061359] (rpi_robot_bringup) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[2.063030] (rpi_robot_bringup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[2.064050] (rpi_robot_bringup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[2.064748] (rpi_robot_bringup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[2.068453] (rpi_robot_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.069525] (rpi_robot_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.070230] (rpi_robot_bringup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.070880] (rpi_robot_bringup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.076332] (rpi_robot_bringup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.137151] (-) TimerEvent: {}
+[2.185762] (rpi_robot_bringup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.188984] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.191152] (rpi_robot_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.195925] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.237433] (-) TimerEvent: {}
+[2.338585] (-) TimerEvent: {}
+[2.439611] (-) TimerEvent: {}
+[2.459257] (rpi_robot_slam) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[2.539902] (-) TimerEvent: {}
+[2.641572] (-) TimerEvent: {}
+[2.743254] (-) TimerEvent: {}
+[2.844521] (-) TimerEvent: {}
+[2.878041] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.883235] (rpi_robot_slam) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[2.924164] (rpi_robot_slam) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[2.934124] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.937203] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.944691] (-) TimerEvent: {}
+[2.967692] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.990616] (rpi_robot_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.038715] (rpi_robot_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.044338] (rpi_robot_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.045340] (-) TimerEvent: {}
+[3.075406] (rpi_robot_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[3.145766] (-) TimerEvent: {}
+[3.159420] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[3.160463] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.245964] (-) TimerEvent: {}
+[3.300856] (rpi_robot_bringup) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[3.302227] (rpi_robot_bringup) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.346232] (-) TimerEvent: {}
+[3.402143] (rpi_robot_slam) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[3.408353] (rpi_robot_slam) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.446481] (-) TimerEvent: {}
+[3.548293] (-) TimerEvent: {}
+[3.649927] (-) TimerEvent: {}
+[3.751203] (-) TimerEvent: {}
+[3.852570] (-) TimerEvent: {}
+[3.862236] (rpi_robot_slam) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.922500] (rpi_robot_slam) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.925774] (rpi_robot_slam) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.939748] (rpi_robot_slam) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[3.952849] (-) TimerEvent: {}
+[4.053822] (-) TimerEvent: {}
+[4.154805] (-) TimerEvent: {}
+[4.256178] (-) TimerEvent: {}
+[4.357467] (-) TimerEvent: {}
+[4.406072] (rpi_robot_slam) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[4.412351] (rpi_robot_slam) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.459041] (-) TimerEvent: {}
+[4.560523] (-) TimerEvent: {}
+[4.664260] (-) TimerEvent: {}
+[4.765611] (-) TimerEvent: {}
+[4.866627] (-) TimerEvent: {}
+[4.894197] (rpi_robot_slam) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.924604] (rpi_robot_bringup) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[4.934065] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[4.942788] (rpi_robot_slam) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.947226] (rpi_robot_slam) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.966850] (-) TimerEvent: {}
+[4.976558] (rpi_robot_slam) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[5.067079] (-) TimerEvent: {}
+[5.168012] (-) TimerEvent: {}
+[5.176557] (rpi_robot_slam) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[5.179503] (rpi_robot_slam) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.268342] (-) TimerEvent: {}
+[5.369875] (-) TimerEvent: {}
+[5.390667] (rpi_robot_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.424270] (rpi_robot_control) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/rpi_robot_control', 'build', '--build-base', '/home/smartway/ros2_ws/build/rpi_robot_control/build', 'install', '--record', '/home/smartway/ros2_ws/build/rpi_robot_control/install.log', '--install-scripts', '$base/lib/rpi_robot_control', '--single-version-externally-managed'], 'cwd': '/home/smartway/ros2_ws/rpi-robot-ros-foxy/rpi_robot_control', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'smartway', 'SSH_AGENT_PID': '1699', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/smartway/ros2_ws/install/rplidar_ros/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/smartway', 'OLDPWD': '/home/smartway', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1529', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/smartway/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'smartway', 'JOURNAL_STREAM': '9:36707', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'smartway', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1797,unix/ubuntu:/tmp/.ICE-unix/1797', 'INVOCATION_ID': '82f99fcfcb5549dd82636849d9ff8b1c', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/82f9cb00_cca5_4eca_acce_dcfe39561d60', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.100', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/smartway/ros2_ws/install/rplidar_ros:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/smartway/ros2_ws/build/rpi_robot_control', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/smartway/ros2_ws/build/rpi_robot_control/prefix_override:/home/smartway/ros2_ws/install/rpi_robot_control/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/smartway/ros2_ws/install/rplidar_ros'}, 'shell': False}
+[5.470275] (-) TimerEvent: {}
+[5.475187] (rpi_robot_bringup) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[5.569803] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[5.570503] (-) TimerEvent: {}
+[5.598786] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.670731] (-) TimerEvent: {}
+[5.671755] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[5.770905] (-) TimerEvent: {}
+[5.872091] (-) TimerEvent: {}
+[5.973169] (-) TimerEvent: {}
+[6.073999] (-) TimerEvent: {}
+[6.174797] (-) TimerEvent: {}
+[6.224576] (rpi_robot_bringup) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[6.275038] (-) TimerEvent: {}
+[6.376175] (-) TimerEvent: {}
+[6.477773] (-) TimerEvent: {}
+[6.525111] (rpi_robot_bringup) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[6.578009] (-) TimerEvent: {}
+[6.590960] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[6.678174] (-) TimerEvent: {}
+[6.713571] (rpi_robot_slam) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[6.729694] (rpi_robot_control) StdoutLine: {'line': b'running egg_info\n'}
+[6.732271] (rpi_robot_control) StdoutLine: {'line': b'creating ../../build/rpi_robot_control/rpi_robot_control.egg-info\n'}
+[6.733201] (rpi_robot_control) StdoutLine: {'line': b'writing ../../build/rpi_robot_control/rpi_robot_control.egg-info/PKG-INFO\n'}
+[6.734929] (rpi_robot_control) StdoutLine: {'line': b'writing dependency_links to ../../build/rpi_robot_control/rpi_robot_control.egg-info/dependency_links.txt\n'}
+[6.735918] (rpi_robot_control) StdoutLine: {'line': b'writing entry points to ../../build/rpi_robot_control/rpi_robot_control.egg-info/entry_points.txt\n'}
+[6.736815] (rpi_robot_control) StdoutLine: {'line': b'writing requirements to ../../build/rpi_robot_control/rpi_robot_control.egg-info/requires.txt\n'}
+[6.737540] (rpi_robot_control) StdoutLine: {'line': b'writing top-level names to ../../build/rpi_robot_control/rpi_robot_control.egg-info/top_level.txt\n'}
+[6.745985] (rpi_robot_control) StdoutLine: {'line': b"writing manifest file '../../build/rpi_robot_control/rpi_robot_control.egg-info/SOURCES.txt'\n"}
+[6.778375] (-) TimerEvent: {}
+[6.879208] (-) TimerEvent: {}
+[6.911426] (rpi_robot_control) StdoutLine: {'line': b"reading manifest file '../../build/rpi_robot_control/rpi_robot_control.egg-info/SOURCES.txt'\n"}
+[6.917510] (rpi_robot_control) StdoutLine: {'line': b"writing manifest file '../../build/rpi_robot_control/rpi_robot_control.egg-info/SOURCES.txt'\n"}
+[6.918481] (rpi_robot_control) StdoutLine: {'line': b'running build\n'}
+[6.919110] (rpi_robot_control) StdoutLine: {'line': b'running build_py\n'}
+[6.920056] (rpi_robot_control) StdoutLine: {'line': b'creating /home/smartway/ros2_ws/build/rpi_robot_control/build\n'}
+[6.920896] (rpi_robot_control) StdoutLine: {'line': b'creating /home/smartway/ros2_ws/build/rpi_robot_control/build/lib\n'}
+[6.921704] (rpi_robot_control) StdoutLine: {'line': b'creating /home/smartway/ros2_ws/build/rpi_robot_control/build/lib/rpi_robot_control\n'}
+[6.922462] (rpi_robot_control) StdoutLine: {'line': b'copying rpi_robot_control/pid.py -> /home/smartway/ros2_ws/build/rpi_robot_control/build/lib/rpi_robot_control\n'}
+[6.923268] (rpi_robot_control) StdoutLine: {'line': b'copying rpi_robot_control/go_to_goal.py -> /home/smartway/ros2_ws/build/rpi_robot_control/build/lib/rpi_robot_control\n'}
+[6.924735] (rpi_robot_control) StdoutLine: {'line': b'copying rpi_robot_control/__init__.py -> /home/smartway/ros2_ws/build/rpi_robot_control/build/lib/rpi_robot_control\n'}
+[6.925981] (rpi_robot_control) StdoutLine: {'line': b'copying rpi_robot_control/lidar.py -> /home/smartway/ros2_ws/build/rpi_robot_control/build/lib/rpi_robot_control\n'}
+[6.927717] (rpi_robot_control) StdoutLine: {'line': b'running install\n'}
+[6.928480] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[6.931749] (rpi_robot_control) StdoutLine: {'line': b'running install_lib\n'}
+[6.936752] (rpi_robot_control) StdoutLine: {'line': b'creating /home/smartway/ros2_ws/install/rpi_robot_control/lib/python3.8/site-packages/rpi_robot_control\n'}
+[6.937669] (rpi_robot_control) StdoutLine: {'line': b'copying /home/smartway/ros2_ws/build/rpi_robot_control/build/lib/rpi_robot_control/pid.py -> /home/smartway/ros2_ws/install/rpi_robot_control/lib/python3.8/site-packages/rpi_robot_control\n'}
+[6.938843] (rpi_robot_control) StdoutLine: {'line': b'copying /home/smartway/ros2_ws/build/rpi_robot_control/build/lib/rpi_robot_control/go_to_goal.py -> /home/smartway/ros2_ws/install/rpi_robot_control/lib/python3.8/site-packages/rpi_robot_control\n'}
+[6.940118] (rpi_robot_control) StdoutLine: {'line': b'copying /home/smartway/ros2_ws/build/rpi_robot_control/build/lib/rpi_robot_control/__init__.py -> /home/smartway/ros2_ws/install/rpi_robot_control/lib/python3.8/site-packages/rpi_robot_control\n'}
+[6.941257] (rpi_robot_control) StdoutLine: {'line': b'copying /home/smartway/ros2_ws/build/rpi_robot_control/build/lib/rpi_robot_control/lidar.py -> /home/smartway/ros2_ws/install/rpi_robot_control/lib/python3.8/site-packages/rpi_robot_control\n'}
+[6.944259] (rpi_robot_control) StdoutLine: {'line': b'byte-compiling /home/smartway/ros2_ws/install/rpi_robot_control/lib/python3.8/site-packages/rpi_robot_control/pid.py to pid.cpython-38.pyc\n'}
+[6.951032] (rpi_robot_control) StdoutLine: {'line': b'byte-compiling /home/smartway/ros2_ws/install/rpi_robot_control/lib/python3.8/site-packages/rpi_robot_control/go_to_goal.py to go_to_goal.cpython-38.pyc\n'}
+[6.959117] (rpi_robot_control) StdoutLine: {'line': b'byte-compiling /home/smartway/ros2_ws/install/rpi_robot_control/lib/python3.8/site-packages/rpi_robot_control/__init__.py to __init__.cpython-38.pyc\n'}
+[6.960607] (rpi_robot_control) StdoutLine: {'line': b'byte-compiling /home/smartway/ros2_ws/install/rpi_robot_control/lib/python3.8/site-packages/rpi_robot_control/lidar.py to lidar.cpython-38.pyc\n'}
+[6.962766] (rpi_robot_control) StdoutLine: {'line': b'running install_data\n'}
+[6.965400] (rpi_robot_control) StdoutLine: {'line': b'creating /home/smartway/ros2_ws/install/rpi_robot_control/share/ament_index\n'}
+[6.966256] (rpi_robot_control) StdoutLine: {'line': b'creating /home/smartway/ros2_ws/install/rpi_robot_control/share/ament_index/resource_index\n'}
+[6.967212] (rpi_robot_control) StdoutLine: {'line': b'creating /home/smartway/ros2_ws/install/rpi_robot_control/share/ament_index/resource_index/packages\n'}
+[6.967998] (rpi_robot_control) StdoutLine: {'line': b'copying resource/rpi_robot_control -> /home/smartway/ros2_ws/install/rpi_robot_control/share/ament_index/resource_index/packages\n'}
+[6.968674] (rpi_robot_control) StdoutLine: {'line': b'copying package.xml -> /home/smartway/ros2_ws/install/rpi_robot_control/share/rpi_robot_control\n'}
+[6.969559] (rpi_robot_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.979484] (-) TimerEvent: {}
+[6.980254] (rpi_robot_control) StdoutLine: {'line': b'Copying ../../build/rpi_robot_control/rpi_robot_control.egg-info to /home/smartway/ros2_ws/install/rpi_robot_control/lib/python3.8/site-packages/rpi_robot_control-0.0.0-py3.8.egg-info\n'}
+[6.987205] (rpi_robot_control) StdoutLine: {'line': b'running install_scripts\n'}
+[7.079709] (-) TimerEvent: {}
+[7.085412] (rpi_robot_control) StdoutLine: {'line': b'Installing go_to_goal script to /home/smartway/ros2_ws/install/rpi_robot_control/lib/rpi_robot_control\n'}
+[7.088630] (rpi_robot_control) StdoutLine: {'line': b"writing list of installed files to '/home/smartway/ros2_ws/build/rpi_robot_control/install.log'\n"}
+[7.179960] (-) TimerEvent: {}
+[7.269387] (rpi_robot_control) CommandEnded: {'returncode': 0}
+[7.282809] (-) TimerEvent: {}
+[7.296306] (rpi_robot_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.367465] (rpi_robot_control) JobEnded: {'identifier': 'rpi_robot_control', 'rc': 0}
+[7.370837] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[7.383622] (-) TimerEvent: {}
+[7.486943] (-) TimerEvent: {}
+[7.491989] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[7.493818] (rpi_robot_slam) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[7.496592] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'build'}
+[7.507490] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/smartway/ros2_ws/build/rplidar_ros', '--', '-j4', '-l4'], 'cwd': '/home/smartway/ros2_ws/build/rplidar_ros', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'smartway'), ('SSH_AGENT_PID', '1699'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/smartway/ros2_ws/install/rplidar_ros/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/smartway'), ('OLDPWD', '/home/smartway'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1529'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/smartway/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'smartway'), ('JOURNAL_STREAM', '9:36707'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'smartway'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1797,unix/ubuntu:/tmp/.ICE-unix/1797'), ('INVOCATION_ID', '82f99fcfcb5549dd82636849d9ff8b1c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/82f9cb00_cca5_4eca_acce_dcfe39561d60'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/smartway/ros2_ws/install/rplidar_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/smartway/ros2_ws/build/rplidar_ros'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/smartway/ros2_ws/install/rplidar_ros:/opt/ros/foxy')]), 'shell': False}
+[7.510962] (rpi_robot_slam) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[7.514874] (rpi_robot_slam) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.515739] (rpi_robot_slam) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[7.527247] (rpi_robot_slam) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.547103] (rpi_robot_slam) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.564000] (rpi_robot_slam) StdoutLine: {'line': b'-- Generating done\n'}
+[7.565509] (rpi_robot_slam) StdoutLine: {'line': b'-- Build files have been written to: /home/smartway/ros2_ws/build/rpi_robot_slam\n'}
+[7.581764] (rpi_robot_slam) CommandEnded: {'returncode': 0}
+[7.585103] (rpi_robot_slam) JobProgress: {'identifier': 'rpi_robot_slam', 'progress': 'build'}
+[7.589429] (rpi_robot_slam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/smartway/ros2_ws/build/rpi_robot_slam', '--', '-j4', '-l4'], 'cwd': '/home/smartway/ros2_ws/build/rpi_robot_slam', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'smartway'), ('SSH_AGENT_PID', '1699'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/smartway/ros2_ws/install/rplidar_ros/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/smartway'), ('OLDPWD', '/home/smartway'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1529'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/smartway/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'smartway'), ('JOURNAL_STREAM', '9:36707'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'smartway'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1797,unix/ubuntu:/tmp/.ICE-unix/1797'), ('INVOCATION_ID', '82f99fcfcb5549dd82636849d9ff8b1c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/82f9cb00_cca5_4eca_acce_dcfe39561d60'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/smartway/ros2_ws/install/rplidar_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/smartway/ros2_ws/build/rpi_robot_slam'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/smartway/ros2_ws/install/rplidar_ros:/opt/ros/foxy')]), 'shell': False}
+[7.599980] (-) TimerEvent: {}
+[7.702537] (-) TimerEvent: {}
+[7.724817] (rpi_robot_bringup) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[7.734901] (rpi_robot_bringup) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.742700] (rpi_robot_bringup) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[7.802844] (-) TimerEvent: {}
+[7.890630] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.893063] (rpi_robot_slam) CommandEnded: {'returncode': 0}
+[7.903306] (-) TimerEvent: {}
+[8.005895] (-) TimerEvent: {}
+[8.107199] (-) TimerEvent: {}
+[8.145818] (rplidar_ros) StdoutLine: {'line': b'[ 38%] Built target rplidar_composition_node\n'}
+[8.154610] (rplidar_ros) StdoutLine: {'line': b'[ 50%] Built target rplidarNodeClient\n'}
+[8.168733] (rplidar_ros) StdoutLine: {'line': b'[ 88%] Built target rplidarNode\n'}
+[8.198466] (rpi_robot_slam) JobProgress: {'identifier': 'rpi_robot_slam', 'progress': 'install'}
+[8.207523] (-) TimerEvent: {}
+[8.264296] (rpi_robot_slam) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/smartway/ros2_ws/build/rpi_robot_slam'], 'cwd': '/home/smartway/ros2_ws/build/rpi_robot_slam', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'smartway'), ('SSH_AGENT_PID', '1699'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/smartway/ros2_ws/install/rplidar_ros/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/smartway'), ('OLDPWD', '/home/smartway'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1529'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/smartway/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'smartway'), ('JOURNAL_STREAM', '9:36707'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'smartway'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1797,unix/ubuntu:/tmp/.ICE-unix/1797'), ('INVOCATION_ID', '82f99fcfcb5549dd82636849d9ff8b1c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/82f9cb00_cca5_4eca_acce_dcfe39561d60'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/smartway/ros2_ws/install/rplidar_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/smartway/ros2_ws/build/rpi_robot_slam'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/smartway/ros2_ws/install/rplidar_ros:/opt/ros/foxy')]), 'shell': False}
+[8.291585] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[8.307840] (-) TimerEvent: {}
+[8.316456] (rpi_robot_bringup) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[8.319201] (rpi_robot_bringup) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[8.334091] (rpi_robot_slam) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.335120] (rpi_robot_slam) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_slam/share/rpi_robot_slam/launch\n'}
+[8.336207] (rpi_robot_slam) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_slam/share/rpi_robot_slam/launch/rpi_robot_slam.launch.py\n'}
+[8.338352] (rpi_robot_slam) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_slam/share/rpi_robot_slam/launch/cartographer.launch.py\n'}
+[8.339467] (rpi_robot_slam) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_slam/share/rpi_robot_slam/launch/occupancy_grid.launch.py\n'}
+[8.340594] (rpi_robot_slam) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_slam/share/rpi_robot_slam/config\n'}
+[8.341792] (rpi_robot_slam) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_slam/share/rpi_robot_slam/config/rpi_robot_lds_2d.lua\n'}
+[8.343105] (rpi_robot_slam) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_slam/share/ament_index/resource_index/package_run_dependencies/rpi_robot_slam\n'}
+[8.345049] (rpi_robot_slam) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_slam/share/ament_index/resource_index/parent_prefix_path/rpi_robot_slam\n'}
+[8.354506] (rpi_robot_slam) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_slam/share/rpi_robot_slam/environment/ament_prefix_path.sh\n'}
+[8.356325] (rpi_robot_slam) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_slam/share/rpi_robot_slam/environment/ament_prefix_path.dsv\n'}
+[8.357830] (rpi_robot_slam) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_slam/share/rpi_robot_slam/environment/path.sh\n'}
+[8.359532] (rpi_robot_slam) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_slam/share/rpi_robot_slam/environment/path.dsv\n'}
+[8.361024] (rpi_robot_slam) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_slam/share/rpi_robot_slam/local_setup.bash\n'}
+[8.362560] (rpi_robot_slam) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_slam/share/rpi_robot_slam/local_setup.sh\n'}
+[8.364376] (rpi_robot_slam) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_slam/share/rpi_robot_slam/local_setup.zsh\n'}
+[8.366222] (rpi_robot_slam) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_slam/share/rpi_robot_slam/local_setup.dsv\n'}
+[8.367949] (rpi_robot_slam) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_slam/share/rpi_robot_slam/package.dsv\n'}
+[8.370217] (rpi_robot_slam) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_slam/share/ament_index/resource_index/packages/rpi_robot_slam\n'}
+[8.372746] (rpi_robot_slam) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_slam/share/rpi_robot_slam/cmake/rpi_robot_slamConfig.cmake\n'}
+[8.374959] (rpi_robot_slam) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_slam/share/rpi_robot_slam/cmake/rpi_robot_slamConfig-version.cmake\n'}
+[8.376891] (rpi_robot_slam) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_slam/share/rpi_robot_slam/package.xml\n'}
+[8.392506] (rpi_robot_slam) CommandEnded: {'returncode': 0}
+[8.407521] (rplidar_ros) StdoutLine: {'line': b'[100%] Built target rplidar_composition\n'}
+[8.408665] (-) TimerEvent: {}
+[8.481904] (rplidar_ros) CommandEnded: {'returncode': 0}
+[8.509380] (-) TimerEvent: {}
+[8.613085] (-) TimerEvent: {}
+[8.712971] (rpi_robot_slam) JobEnded: {'identifier': 'rpi_robot_slam', 'rc': 0}
+[8.716038] (-) TimerEvent: {}
+[8.788505] (rpi_robot_bringup) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[8.789666] (rpi_robot_bringup) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[8.816232] (-) TimerEvent: {}
+[8.828845] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'install'}
+[8.830168] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/smartway/ros2_ws/build/rplidar_ros'], 'cwd': '/home/smartway/ros2_ws/build/rplidar_ros', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'smartway'), ('SSH_AGENT_PID', '1699'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/smartway/ros2_ws/install/rplidar_ros/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/smartway'), ('OLDPWD', '/home/smartway'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1529'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/smartway/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'smartway'), ('JOURNAL_STREAM', '9:36707'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'smartway'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1797,unix/ubuntu:/tmp/.ICE-unix/1797'), ('INVOCATION_ID', '82f99fcfcb5549dd82636849d9ff8b1c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/82f9cb00_cca5_4eca_acce_dcfe39561d60'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/smartway/ros2_ws/install/rplidar_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/smartway/ros2_ws/build/rplidar_ros'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/smartway/ros2_ws/install/rplidar_ros:/opt/ros/foxy')]), 'shell': False}
+[8.882290] (rplidar_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.883438] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidarNode\n'}
+[8.885484] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidarNodeClient\n'}
+[8.887645] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[8.888832] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch\n'}
+[8.890002] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar.launch.py\n'}
+[8.891123] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3.launch.py\n'}
+[8.892082] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar.launch.py\n'}
+[8.892560] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp.launch.py\n'}
+[8.893447] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3.launch.py\n'}
+[8.894080] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1.launch.py\n'}
+[8.895350] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/test_rplidar.launch.py\n'}
+[8.895927] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp.launch.py\n'}
+[8.897102] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/test_rplidar_a3.launch.py\n'}
+[8.897775] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1.launch.py\n'}
+[8.898530] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rplidar_ros/share/rplidar_ros/rviz\n'}
+[8.899482] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar.rviz\n'}
+[8.899985] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rplidar_ros/lib/librplidar_composition_node.so\n'}
+[8.900562] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rplidar_ros/include\n'}
+[8.901561] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rplidar_ros/include/rplidar_node.hpp\n'}
+[8.902182] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rplidar_ros/include/visibility.h\n'}
+[8.902996] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidarNode\n'}
+[8.903955] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidarNodeClient\n'}
+[8.905382] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[8.906746] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros\n'}
+[8.908188] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros\n'}
+[8.908892] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh\n'}
+[8.909902] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv\n'}
+[8.911265] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh\n'}
+[8.912364] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv\n'}
+[8.913282] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash\n'}
+[8.914121] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh\n'}
+[8.915158] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh\n'}
+[8.916414] (-) TimerEvent: {}
+[8.917756] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv\n'}
+[8.920212] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv\n'}
+[8.921956] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros\n'}
+[8.928973] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.936832] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.937431] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake\n'}
+[8.937997] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake\n'}
+[8.938564] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.xml\n'}
+[8.939235] (rplidar_ros) CommandEnded: {'returncode': 0}
+[9.017166] (-) TimerEvent: {}
+[9.098042] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[9.099034] (rpi_robot_bringup) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[9.099522] (rpi_robot_bringup) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[9.117193] (-) TimerEvent: {}
+[9.218335] (-) TimerEvent: {}
+[9.319718] (-) TimerEvent: {}
+[9.374322] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 0}
+[9.420018] (-) TimerEvent: {}
+[9.470303] (rpi_robot_bringup) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[9.473630] (rpi_robot_bringup) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[9.520208] (-) TimerEvent: {}
+[9.621036] (-) TimerEvent: {}
+[9.721826] (-) TimerEvent: {}
+[9.822579] (-) TimerEvent: {}
+[9.923388] (-) TimerEvent: {}
+[10.024155] (-) TimerEvent: {}
+[10.124935] (-) TimerEvent: {}
+[10.140094] (rpi_robot_bringup) StdoutLine: {'line': b'-- Found rclpy: 1.0.12 (/opt/ros/foxy/share/rclpy/cmake)\n'}
+[10.196708] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.225077] (-) TimerEvent: {}
+[10.294560] (rpi_robot_bringup) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[10.307643] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.325228] (-) TimerEvent: {}
+[10.426179] (-) TimerEvent: {}
+[10.432324] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[10.451053] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[10.526406] (-) TimerEvent: {}
+[10.595170] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[10.596032] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[10.596511] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[10.597078] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[10.626601] (-) TimerEvent: {}
+[10.694676] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[10.726806] (-) TimerEvent: {}
+[10.779026] (rpi_robot_bringup) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[10.792744] (rpi_robot_bringup) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[10.793580] (rpi_robot_bringup) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/smartway/ros2_ws/rpi-robot-ros-foxy/rpi_robot_bringup/include\n'}
+[10.794165] (rpi_robot_bringup) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[10.806114] (rpi_robot_bringup) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[10.806869] (rpi_robot_bringup) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[10.809834] (rpi_robot_bringup) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[10.814536] (rpi_robot_bringup) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[10.818126] (rpi_robot_bringup) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[10.827183] (-) TimerEvent: {}
+[10.831645] (rpi_robot_bringup) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[10.832620] (rpi_robot_bringup) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[10.836284] (rpi_robot_bringup) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[10.859363] (rpi_robot_bringup) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.890443] (rpi_robot_bringup) StdoutLine: {'line': b'-- Generating done\n'}
+[10.896743] (rpi_robot_bringup) StdoutLine: {'line': b'-- Build files have been written to: /home/smartway/ros2_ws/build/rpi_robot_bringup\n'}
+[10.927376] (-) TimerEvent: {}
+[10.932485] (rpi_robot_bringup) CommandEnded: {'returncode': 0}
+[10.934835] (rpi_robot_bringup) JobProgress: {'identifier': 'rpi_robot_bringup', 'progress': 'build'}
+[10.936128] (rpi_robot_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/smartway/ros2_ws/build/rpi_robot_bringup', '--', '-j4', '-l4'], 'cwd': '/home/smartway/ros2_ws/build/rpi_robot_bringup', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'smartway'), ('SSH_AGENT_PID', '1699'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/smartway/ros2_ws/install/rplidar_ros/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/smartway'), ('OLDPWD', '/home/smartway'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1529'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/smartway/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'smartway'), ('JOURNAL_STREAM', '9:36707'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'smartway'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1797,unix/ubuntu:/tmp/.ICE-unix/1797'), ('INVOCATION_ID', '82f99fcfcb5549dd82636849d9ff8b1c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/82f9cb00_cca5_4eca_acce_dcfe39561d60'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/smartway/ros2_ws/install/rplidar_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/smartway/ros2_ws/build/rpi_robot_bringup'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/smartway/ros2_ws/install/rplidar_ros:/opt/ros/foxy')]), 'shell': False}
+[10.946338] (rpi_robot_action_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[10.947713] (rpi_robot_action_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[10.953563] (rpi_robot_action_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[11.007384] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.027577] (-) TimerEvent: {}
+[11.123904] (rpi_robot_bringup) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target basic_node\x1b[0m\n'}
+[11.127747] (-) TimerEvent: {}
+[11.228577] (-) TimerEvent: {}
+[11.243700] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[11.258420] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/smartway/ros2_ws/build/rpi_robot_action_interfaces\n'}
+[11.303216] (rpi_robot_bringup) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/basic_node.dir/src/basic_node.cpp.o\x1b[0m\n'}
+[11.318725] (rpi_robot_action_interfaces) CommandEnded: {'returncode': 0}
+[11.322961] (rpi_robot_action_interfaces) JobProgress: {'identifier': 'rpi_robot_action_interfaces', 'progress': 'build'}
+[11.323384] (rpi_robot_action_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/smartway/ros2_ws/build/rpi_robot_action_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/smartway/ros2_ws/build/rpi_robot_action_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'smartway'), ('SSH_AGENT_PID', '1699'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/smartway/ros2_ws/install/rplidar_ros/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/smartway'), ('OLDPWD', '/home/smartway'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1529'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/smartway/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'smartway'), ('JOURNAL_STREAM', '9:36707'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'smartway'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1797,unix/ubuntu:/tmp/.ICE-unix/1797'), ('INVOCATION_ID', '82f99fcfcb5549dd82636849d9ff8b1c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/82f9cb00_cca5_4eca_acce_dcfe39561d60'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/smartway/ros2_ws/install/rplidar_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/smartway/ros2_ws/build/rpi_robot_action_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/smartway/ros2_ws/install/rplidar_ros:/opt/ros/foxy')]), 'shell': False}
+[11.328843] (-) TimerEvent: {}
+[11.429837] (-) TimerEvent: {}
+[11.508246] (rpi_robot_action_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rpi_robot_action_interfaces__cpp\x1b[0m\n'}
+[11.511399] (rpi_robot_action_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[11.530051] (-) TimerEvent: {}
+[11.562776] (rpi_robot_action_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[11.630273] (-) TimerEvent: {}
+[11.731335] (-) TimerEvent: {}
+[11.832429] (-) TimerEvent: {}
+[11.934083] (-) TimerEvent: {}
+[12.035571] (-) TimerEvent: {}
+[12.137501] (-) TimerEvent: {}
+[12.239084] (-) TimerEvent: {}
+[12.341193] (-) TimerEvent: {}
+[12.442165] (-) TimerEvent: {}
+[12.543157] (-) TimerEvent: {}
+[12.644489] (-) TimerEvent: {}
+[12.745962] (-) TimerEvent: {}
+[12.846945] (-) TimerEvent: {}
+[12.948154] (-) TimerEvent: {}
+[13.049454] (-) TimerEvent: {}
+[13.150991] (-) TimerEvent: {}
+[13.252271] (-) TimerEvent: {}
+[13.353655] (-) TimerEvent: {}
+[13.455200] (-) TimerEvent: {}
+[13.557558] (-) TimerEvent: {}
+[13.660416] (-) TimerEvent: {}
+[13.687650] (rpi_robot_action_interfaces) StdoutLine: {'line': b'[  6%] Built target rpi_robot_action_interfaces__cpp\n'}
+[13.757724] (rpi_robot_action_interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[13.759304] (rpi_robot_action_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[13.760666] (-) TimerEvent: {}
+[13.786802] (rpi_robot_action_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[13.811069] (rpi_robot_action_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rpi_robot_action_interfaces__rosidl_generator_c\x1b[0m\n'}
+[13.860961] (-) TimerEvent: {}
+[13.961868] (-) TimerEvent: {}
+[13.974620] (rpi_robot_action_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/rpi_robot_action_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rpi_robot_action_interfaces/action/detail/go_to_goal__functions.c.o\x1b[0m\n'}
+[14.062188] (-) TimerEvent: {}
+[14.163332] (-) TimerEvent: {}
+[14.264261] (-) TimerEvent: {}
+[14.365490] (-) TimerEvent: {}
+[14.480329] (-) TimerEvent: {}
+[14.581914] (-) TimerEvent: {}
+[14.683507] (-) TimerEvent: {}
+[14.785054] (-) TimerEvent: {}
+[14.886788] (-) TimerEvent: {}
+[14.988136] (-) TimerEvent: {}
+[15.078896] (rpi_robot_action_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library librpi_robot_action_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[15.088400] (-) TimerEvent: {}
+[15.189812] (-) TimerEvent: {}
+[15.291407] (-) TimerEvent: {}
+[15.393033] (-) TimerEvent: {}
+[15.495026] (-) TimerEvent: {}
+[15.541168] (rpi_robot_action_interfaces) StdoutLine: {'line': b'[ 22%] Built target rpi_robot_action_interfaces__rosidl_generator_c\n'}
+[15.595248] (-) TimerEvent: {}
+[15.693427] (rpi_robot_action_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[15.695798] (-) TimerEvent: {}
+[15.798033] (-) TimerEvent: {}
+[15.899514] (-) TimerEvent: {}
+[15.955473] (rpi_robot_action_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rpi_robot_action_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[15.999812] (-) TimerEvent: {}
+[16.102107] (-) TimerEvent: {}
+[16.142071] (rpi_robot_action_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/rpi_robot_action_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rpi_robot_action_interfaces/action/go_to_goal__type_support.cpp.o\x1b[0m\n'}
+[16.187730] (rpi_robot_action_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rpi_robot_action_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[16.202342] (-) TimerEvent: {}
+[16.303987] (-) TimerEvent: {}
+[16.399931] (rpi_robot_action_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/rpi_robot_action_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rpi_robot_action_interfaces/action/detail/go_to_goal__type_support.cpp.o\x1b[0m\n'}
+[16.404261] (-) TimerEvent: {}
+[16.505219] (-) TimerEvent: {}
+[16.606694] (-) TimerEvent: {}
+[16.610377] (rpi_robot_action_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rpi_robot_action_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[16.706939] (-) TimerEvent: {}
+[16.808274] (-) TimerEvent: {}
+[16.871362] (rpi_robot_action_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/rpi_robot_action_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rpi_robot_action_interfaces/action/detail/dds_fastrtps/go_to_goal__type_support.cpp.o\x1b[0m\n'}
+[16.908555] (-) TimerEvent: {}
+[17.009907] (-) TimerEvent: {}
+[17.110943] (-) TimerEvent: {}
+[17.212105] (-) TimerEvent: {}
+[17.313306] (-) TimerEvent: {}
+[17.414935] (-) TimerEvent: {}
+[17.519941] (-) TimerEvent: {}
+[17.621454] (-) TimerEvent: {}
+[17.723098] (-) TimerEvent: {}
+[17.800132] (rpi_robot_action_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rpi_robot_action_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[17.823349] (-) TimerEvent: {}
+[17.925120] (-) TimerEvent: {}
+[17.993101] (rpi_robot_action_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/rpi_robot_action_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rpi_robot_action_interfaces/action/go_to_goal__type_support.cpp.o\x1b[0m\n'}
+[18.025341] (-) TimerEvent: {}
+[18.126787] (-) TimerEvent: {}
+[18.228344] (-) TimerEvent: {}
+[18.330130] (-) TimerEvent: {}
+[18.431857] (-) TimerEvent: {}
+[18.471963] (rpi_robot_action_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library librpi_robot_action_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[18.532126] (-) TimerEvent: {}
+[18.633812] (-) TimerEvent: {}
+[18.735474] (-) TimerEvent: {}
+[18.837990] (-) TimerEvent: {}
+[18.868547] (rpi_robot_action_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library librpi_robot_action_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[18.936561] (rpi_robot_action_interfaces) StdoutLine: {'line': b'[ 45%] Built target rpi_robot_action_interfaces__rosidl_typesupport_c\n'}
+[18.938221] (-) TimerEvent: {}
+[19.039867] (-) TimerEvent: {}
+[19.075542] (rpi_robot_action_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[19.140104] (-) TimerEvent: {}
+[19.241180] (-) TimerEvent: {}
+[19.329685] (rpi_robot_action_interfaces) StdoutLine: {'line': b'[ 48%] Built target rpi_robot_action_interfaces__rosidl_typesupport_cpp\n'}
+[19.341347] (-) TimerEvent: {}
+[19.391114] (rpi_robot_action_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library librpi_robot_action_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[19.441640] (-) TimerEvent: {}
+[19.542898] (-) TimerEvent: {}
+[19.644036] (-) TimerEvent: {}
+[19.744994] (-) TimerEvent: {}
+[19.797222] (rpi_robot_action_interfaces) StdoutLine: {'line': b'[ 51%] Built target rpi_robot_action_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[19.845283] (-) TimerEvent: {}
+[19.946795] (-) TimerEvent: {}
+[20.048237] (-) TimerEvent: {}
+[20.149284] (-) TimerEvent: {}
+[20.250354] (-) TimerEvent: {}
+[20.351711] (-) TimerEvent: {}
+[20.453236] (-) TimerEvent: {}
+[20.504452] (rpi_robot_action_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library librpi_robot_action_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[20.553474] (-) TimerEvent: {}
+[20.654870] (-) TimerEvent: {}
+[20.756077] (-) TimerEvent: {}
+[20.857358] (-) TimerEvent: {}
+[20.934766] (rpi_robot_action_interfaces) StdoutLine: {'line': b'[ 54%] Built target rpi_robot_action_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[20.957632] (-) TimerEvent: {}
+[21.005297] (rpi_robot_action_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[21.057810] (-) TimerEvent: {}
+[21.080680] (rpi_robot_action_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rpi_robot_action_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[21.158010] (-) TimerEvent: {}
+[21.159817] (rpi_robot_action_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/rpi_robot_action_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rpi_robot_action_interfaces/action/detail/go_to_goal__type_support.c.o\x1b[0m\n'}
+[21.258241] (-) TimerEvent: {}
+[21.359210] (-) TimerEvent: {}
+[21.438580] (rpi_robot_action_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking C shared library librpi_robot_action_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[21.459573] (-) TimerEvent: {}
+[21.562144] (-) TimerEvent: {}
+[21.611264] (rpi_robot_action_interfaces) StdoutLine: {'line': b'[ 64%] Built target rpi_robot_action_interfaces__rosidl_typesupport_introspection_c\n'}
+[21.662303] (-) TimerEvent: {}
+[21.763171] (-) TimerEvent: {}
+[21.864072] (-) TimerEvent: {}
+[21.965621] (-) TimerEvent: {}
+[22.066876] (-) TimerEvent: {}
+[22.167973] (-) TimerEvent: {}
+[22.269383] (-) TimerEvent: {}
+[22.370753] (-) TimerEvent: {}
+[22.471922] (-) TimerEvent: {}
+[22.573206] (-) TimerEvent: {}
+[22.674053] (-) TimerEvent: {}
+[22.774870] (-) TimerEvent: {}
+[22.854343] (rpi_robot_action_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rpi_robot_action_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[22.875273] (-) TimerEvent: {}
+[22.956008] (rpi_robot_action_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/rpi_robot_action_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rpi_robot_action_interfaces/action/detail/go_to_goal__type_support_c.cpp.o\x1b[0m\n'}
+[22.975528] (-) TimerEvent: {}
+[22.983374] (rpi_robot_bringup) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable basic_node\x1b[0m\n'}
+[23.075785] (-) TimerEvent: {}
+[23.177035] (-) TimerEvent: {}
+[23.278226] (-) TimerEvent: {}
+[23.379733] (-) TimerEvent: {}
+[23.480730] (-) TimerEvent: {}
+[23.531842] (rpi_robot_bringup) StdoutLine: {'line': b'[100%] Built target basic_node\n'}
+[23.577585] (rpi_robot_bringup) CommandEnded: {'returncode': 0}
+[23.584080] (-) TimerEvent: {}
+[23.686920] (-) TimerEvent: {}
+[23.703539] (rpi_robot_bringup) JobProgress: {'identifier': 'rpi_robot_bringup', 'progress': 'install'}
+[23.704770] (rpi_robot_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/smartway/ros2_ws/build/rpi_robot_bringup'], 'cwd': '/home/smartway/ros2_ws/build/rpi_robot_bringup', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'smartway'), ('SSH_AGENT_PID', '1699'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/smartway/ros2_ws/install/rplidar_ros/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/smartway'), ('OLDPWD', '/home/smartway'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1529'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/smartway/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'smartway'), ('JOURNAL_STREAM', '9:36707'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'smartway'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1797,unix/ubuntu:/tmp/.ICE-unix/1797'), ('INVOCATION_ID', '82f99fcfcb5549dd82636849d9ff8b1c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/82f9cb00_cca5_4eca_acce_dcfe39561d60'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/smartway/ros2_ws/install/rplidar_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/smartway/ros2_ws/build/rpi_robot_bringup'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/smartway/ros2_ws/install/rplidar_ros:/opt/ros/foxy')]), 'shell': False}
+[23.755200] (rpi_robot_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[23.756117] (rpi_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/lib/rpi_robot_bringup/basic_node\n'}
+[23.758939] (rpi_robot_bringup) StdoutLine: {'line': b'-- Set runtime path of "/home/smartway/ros2_ws/install/rpi_robot_bringup/lib/rpi_robot_bringup/basic_node" to ""\n'}
+[23.759681] (rpi_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/launch\n'}
+[23.760305] (rpi_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/launch/rpi_robot_nostate.launch.py\n'}
+[23.761025] (rpi_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/launch/rpi_robot.launch.py\n'}
+[23.762070] (rpi_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/launch/rpi_robot_joy_teleop.launch.py\n'}
+[23.763082] (rpi_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/launch/lidar.launch.py\n'}
+[23.763956] (rpi_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/config\n'}
+[23.764597] (rpi_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/config/ps4.config.yaml\n'}
+[23.766103] (rpi_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/environment/pythonpath.sh\n'}
+[23.767293] (rpi_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/environment/pythonpath.dsv\n'}
+[23.768495] (rpi_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/lib/python3.8/site-packages/rpi_robot_bringup\n'}
+[23.769263] (rpi_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/lib/python3.8/site-packages/rpi_robot_bringup/__init__.py\n'}
+[23.787071] (-) TimerEvent: {}
+[23.888073] (-) TimerEvent: {}
+[23.920275] (rpi_robot_bringup) StdoutLine: {'line': b"Listing '/home/smartway/ros2_ws/install/rpi_robot_bringup/lib/python3.8/site-packages/rpi_robot_bringup'...\n"}
+[23.924496] (rpi_robot_bringup) StdoutLine: {'line': b"Compiling '/home/smartway/ros2_ws/install/rpi_robot_bringup/lib/python3.8/site-packages/rpi_robot_bringup/__init__.py'...\n"}
+[23.956937] (rpi_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/lib/rpi_robot_bringup/rpi_robot_echo.py\n'}
+[23.957592] (rpi_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/lib/rpi_robot_bringup/rpi_robot_control.py\n'}
+[23.958016] (rpi_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/lib/rpi_robot_bringup/rpi_robot_control_nostate.py\n'}
+[23.958469] (rpi_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/ament_index/resource_index/package_run_dependencies/rpi_robot_bringup\n'}
+[23.958892] (rpi_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/ament_index/resource_index/parent_prefix_path/rpi_robot_bringup\n'}
+[23.959314] (rpi_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/environment/ament_prefix_path.sh\n'}
+[23.959726] (rpi_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/environment/ament_prefix_path.dsv\n'}
+[23.961583] (rpi_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/environment/path.sh\n'}
+[23.962741] (rpi_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/environment/path.dsv\n'}
+[23.964028] (rpi_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/local_setup.bash\n'}
+[23.965486] (rpi_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/local_setup.sh\n'}
+[23.966777] (rpi_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/local_setup.zsh\n'}
+[23.967970] (rpi_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/local_setup.dsv\n'}
+[23.969274] (rpi_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/package.dsv\n'}
+[23.970894] (rpi_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/ament_index/resource_index/packages/rpi_robot_bringup\n'}
+[23.972369] (rpi_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/cmake/rpi_robot_bringupConfig.cmake\n'}
+[23.973436] (rpi_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/cmake/rpi_robot_bringupConfig-version.cmake\n'}
+[23.974659] (rpi_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_bringup/share/rpi_robot_bringup/package.xml\n'}
+[23.981626] (rpi_robot_bringup) CommandEnded: {'returncode': 0}
+[23.993883] (-) TimerEvent: {}
+[24.094850] (-) TimerEvent: {}
+[24.196068] (-) TimerEvent: {}
+[24.256438] (rpi_robot_bringup) JobEnded: {'identifier': 'rpi_robot_bringup', 'rc': 0}
+[24.296290] (-) TimerEvent: {}
+[24.397141] (-) TimerEvent: {}
+[24.498223] (-) TimerEvent: {}
+[24.598985] (-) TimerEvent: {}
+[24.699796] (-) TimerEvent: {}
+[24.800643] (-) TimerEvent: {}
+[24.888905] (rpi_robot_action_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library librpi_robot_action_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[24.900872] (-) TimerEvent: {}
+[25.001792] (-) TimerEvent: {}
+[25.102843] (-) TimerEvent: {}
+[25.203944] (-) TimerEvent: {}
+[25.266183] (rpi_robot_action_interfaces) StdoutLine: {'line': b'[ 70%] Built target rpi_robot_action_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[25.304191] (-) TimerEvent: {}
+[25.312815] (rpi_robot_action_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rpi_robot_action_interfaces\x1b[0m\n'}
+[25.360200] (rpi_robot_action_interfaces) StdoutLine: {'line': b'[ 70%] Built target rpi_robot_action_interfaces\n'}
+[25.404423] (-) TimerEvent: {}
+[25.406471] (rpi_robot_action_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rpi_robot_action_interfaces__py\x1b[0m\n'}
+[25.456119] (rpi_robot_action_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[25.504597] (-) TimerEvent: {}
+[25.605412] (-) TimerEvent: {}
+[25.706481] (-) TimerEvent: {}
+[25.807185] (-) TimerEvent: {}
+[25.907897] (-) TimerEvent: {}
+[26.008607] (-) TimerEvent: {}
+[26.109412] (-) TimerEvent: {}
+[26.210276] (-) TimerEvent: {}
+[26.311531] (-) TimerEvent: {}
+[26.412645] (-) TimerEvent: {}
+[26.516596] (-) TimerEvent: {}
+[26.620385] (-) TimerEvent: {}
+[26.721312] (-) TimerEvent: {}
+[26.822138] (-) TimerEvent: {}
+[26.922949] (-) TimerEvent: {}
+[27.023726] (-) TimerEvent: {}
+[27.124447] (-) TimerEvent: {}
+[27.225144] (-) TimerEvent: {}
+[27.325815] (-) TimerEvent: {}
+[27.426534] (-) TimerEvent: {}
+[27.527420] (-) TimerEvent: {}
+[27.629226] (-) TimerEvent: {}
+[27.733254] (-) TimerEvent: {}
+[27.834821] (-) TimerEvent: {}
+[27.936423] (-) TimerEvent: {}
+[28.037305] (-) TimerEvent: {}
+[28.138096] (-) TimerEvent: {}
+[28.238823] (-) TimerEvent: {}
+[28.339563] (-) TimerEvent: {}
+[28.440263] (-) TimerEvent: {}
+[28.541006] (-) TimerEvent: {}
+[28.641676] (-) TimerEvent: {}
+[28.742325] (-) TimerEvent: {}
+[28.842980] (-) TimerEvent: {}
+[28.943633] (-) TimerEvent: {}
+[29.044401] (-) TimerEvent: {}
+[29.145597] (-) TimerEvent: {}
+[29.246593] (-) TimerEvent: {}
+[29.281478] (rpi_robot_action_interfaces) StdoutLine: {'line': b'[ 74%] Built target rpi_robot_action_interfaces__py\n'}
+[29.330738] (rpi_robot_action_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rpi_robot_action_interfaces__python\x1b[0m\n'}
+[29.346742] (-) TimerEvent: {}
+[29.422737] (rpi_robot_action_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/rpi_robot_action_interfaces__python.dir/rosidl_generator_py/rpi_robot_action_interfaces/action/_go_to_goal_s.c.o\x1b[0m\n'}
+[29.447022] (-) TimerEvent: {}
+[29.547911] (-) TimerEvent: {}
+[29.648730] (-) TimerEvent: {}
+[29.749595] (-) TimerEvent: {}
+[29.850428] (-) TimerEvent: {}
+[29.951378] (-) TimerEvent: {}
+[29.997636] (rpi_robot_action_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/rpi_robot_action_interfaces/librpi_robot_action_interfaces__python.so\x1b[0m\n'}
+[30.051531] (-) TimerEvent: {}
+[30.152234] (-) TimerEvent: {}
+[30.224180] (rpi_robot_action_interfaces) StdoutLine: {'line': b'[ 80%] Built target rpi_robot_action_interfaces__python\n'}
+[30.252492] (-) TimerEvent: {}
+[30.273541] (rpi_robot_action_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rpi_robot_action_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[30.274270] (rpi_robot_action_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rpi_robot_action_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[30.275211] (rpi_robot_action_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rpi_robot_action_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[30.352689] (-) TimerEvent: {}
+[30.353591] (rpi_robot_action_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/rpi_robot_action_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rpi_robot_action_interfaces/_rpi_robot_action_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[30.397339] (rpi_robot_action_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/rpi_robot_action_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rpi_robot_action_interfaces/_rpi_robot_action_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[30.402010] (rpi_robot_action_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/rpi_robot_action_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rpi_robot_action_interfaces/_rpi_robot_action_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[30.452938] (-) TimerEvent: {}
+[30.554307] (-) TimerEvent: {}
+[30.655383] (-) TimerEvent: {}
+[30.756496] (-) TimerEvent: {}
+[30.857810] (-) TimerEvent: {}
+[30.897272] (rpi_robot_action_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/rpi_robot_action_interfaces/rpi_robot_action_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[30.925187] (rpi_robot_action_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/rpi_robot_action_interfaces/rpi_robot_action_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[30.951804] (rpi_robot_action_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/rpi_robot_action_interfaces/rpi_robot_action_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[30.957990] (-) TimerEvent: {}
+[31.059541] (-) TimerEvent: {}
+[31.163197] (-) TimerEvent: {}
+[31.201689] (rpi_robot_action_interfaces) StdoutLine: {'line': b'[100%] Built target rpi_robot_action_interfaces__rosidl_typesupport_c__pyext\n'}
+[31.234246] (rpi_robot_action_interfaces) StdoutLine: {'line': b'[100%] Built target rpi_robot_action_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[31.263402] (-) TimerEvent: {}
+[31.364225] (-) TimerEvent: {}
+[31.373418] (rpi_robot_action_interfaces) StdoutLine: {'line': b'[100%] Built target rpi_robot_action_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[31.420114] (rpi_robot_action_interfaces) CommandEnded: {'returncode': 0}
+[31.464539] (-) TimerEvent: {}
+[31.565544] (-) TimerEvent: {}
+[31.666378] (-) TimerEvent: {}
+[31.761470] (rpi_robot_action_interfaces) JobProgress: {'identifier': 'rpi_robot_action_interfaces', 'progress': 'install'}
+[31.762934] (rpi_robot_action_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/smartway/ros2_ws/build/rpi_robot_action_interfaces'], 'cwd': '/home/smartway/ros2_ws/build/rpi_robot_action_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'smartway'), ('SSH_AGENT_PID', '1699'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/smartway/ros2_ws/install/rplidar_ros/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/smartway'), ('OLDPWD', '/home/smartway'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1529'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/smartway/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'smartway'), ('JOURNAL_STREAM', '9:36707'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'smartway'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1797,unix/ubuntu:/tmp/.ICE-unix/1797'), ('INVOCATION_ID', '82f99fcfcb5549dd82636849d9ff8b1c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/82f9cb00_cca5_4eca_acce_dcfe39561d60'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/smartway/ros2_ws/install/rplidar_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/smartway/ros2_ws/build/rpi_robot_action_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/smartway/ros2_ws/install/rplidar_ros:/opt/ros/foxy')]), 'shell': False}
+[31.774517] (-) TimerEvent: {}
+[31.810347] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[31.811143] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/ament_index/resource_index/rosidl_interfaces/rpi_robot_action_interfaces\n'}
+[31.812475] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces\n'}
+[31.813074] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/msg\n'}
+[31.813663] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[31.814854] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action\n'}
+[31.817289] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action/go_to_goal.h\n'}
+[31.819147] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action/detail\n'}
+[31.820009] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action/detail/go_to_goal__functions.c\n'}
+[31.820554] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action/detail/go_to_goal__functions.h\n'}
+[31.821579] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action/detail/go_to_goal__type_support.h\n'}
+[31.822600] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action/detail/go_to_goal__struct.h\n'}
+[31.824151] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/environment/library_path.sh\n'}
+[31.825246] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/environment/library_path.dsv\n'}
+[31.826698] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/lib/librpi_robot_action_interfaces__rosidl_generator_c.so\n'}
+[31.829199] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/smartway/ros2_ws/install/rpi_robot_action_interfaces/lib/librpi_robot_action_interfaces__rosidl_generator_c.so" to ""\n'}
+[31.829725] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces\n'}
+[31.830093] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/msg\n'}
+[31.830451] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[31.831280] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action\n'}
+[31.831736] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action/detail\n'}
+[31.832097] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action/detail/go_to_goal__rosidl_typesupport_fastrtps_c.h\n'}
+[31.833696] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/lib/librpi_robot_action_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[31.836002] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/smartway/ros2_ws/install/rpi_robot_action_interfaces/lib/librpi_robot_action_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[31.836477] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces\n'}
+[31.836957] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/msg\n'}
+[31.837348] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[31.838136] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action\n'}
+[31.838537] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action/detail\n'}
+[31.838897] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action/detail/dds_fastrtps\n'}
+[31.839468] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action/detail/go_to_goal__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[31.841107] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/lib/librpi_robot_action_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[31.843604] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/smartway/ros2_ws/install/rpi_robot_action_interfaces/lib/librpi_robot_action_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[31.844105] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces\n'}
+[31.844516] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/msg\n'}
+[31.844931] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[31.845768] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action\n'}
+[31.846162] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action/detail\n'}
+[31.846569] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action/detail/go_to_goal__rosidl_typesupport_introspection_c.h\n'}
+[31.847635] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action/detail/go_to_goal__type_support.c\n'}
+[31.849360] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/lib/librpi_robot_action_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[31.851615] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/smartway/ros2_ws/install/rpi_robot_action_interfaces/lib/librpi_robot_action_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[31.852145] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/lib/librpi_robot_action_interfaces__rosidl_typesupport_c.so\n'}
+[31.854428] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/smartway/ros2_ws/install/rpi_robot_action_interfaces/lib/librpi_robot_action_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[31.854933] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces\n'}
+[31.855354] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action\n'}
+[31.855651] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action/detail\n'}
+[31.856007] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action/detail/go_to_goal__traits.hpp\n'}
+[31.856927] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action/detail/go_to_goal__builder.hpp\n'}
+[31.857969] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action/detail/go_to_goal__struct.hpp\n'}
+[31.859123] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action/go_to_goal.hpp\n'}
+[31.860163] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces\n'}
+[31.860607] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action\n'}
+[31.861107] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action/detail\n'}
+[31.861494] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action/detail/go_to_goal__rosidl_typesupport_introspection_cpp.hpp\n'}
+[31.862457] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action/detail/go_to_goal__type_support.cpp\n'}
+[31.864208] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/lib/librpi_robot_action_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[31.866779] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/smartway/ros2_ws/install/rpi_robot_action_interfaces/lib/librpi_robot_action_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[31.867321] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/lib/librpi_robot_action_interfaces__rosidl_typesupport_cpp.so\n'}
+[31.869569] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/smartway/ros2_ws/install/rpi_robot_action_interfaces/lib/librpi_robot_action_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[31.870065] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/environment/pythonpath.sh\n'}
+[31.871147] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/environment/pythonpath.dsv\n'}
+[31.872545] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/lib/python3.8/site-packages/rpi_robot_action_interfaces/__init__.py\n'}
+[31.874647] (-) TimerEvent: {}
+[31.975437] (-) TimerEvent: {}
+[31.994872] (rpi_robot_action_interfaces) StdoutLine: {'line': b"Compiling '/home/smartway/ros2_ws/install/rpi_robot_action_interfaces/lib/python3.8/site-packages/rpi_robot_action_interfaces/__init__.py'...\n"}
+[32.020816] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/lib/python3.8/site-packages/rpi_robot_action_interfaces/action\n'}
+[32.021499] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/lib/python3.8/site-packages/rpi_robot_action_interfaces/action/_go_to_goal.py\n'}
+[32.022787] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/lib/python3.8/site-packages/rpi_robot_action_interfaces/action/_go_to_goal_s.c\n'}
+[32.023885] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/lib/python3.8/site-packages/rpi_robot_action_interfaces/action/__init__.py\n'}
+[32.025785] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/lib/python3.8/site-packages/rpi_robot_action_interfaces/rpi_robot_action_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[32.029767] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/smartway/ros2_ws/install/rpi_robot_action_interfaces/lib/python3.8/site-packages/rpi_robot_action_interfaces/rpi_robot_action_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[32.031135] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/lib/python3.8/site-packages/rpi_robot_action_interfaces/rpi_robot_action_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[32.035368] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/smartway/ros2_ws/install/rpi_robot_action_interfaces/lib/python3.8/site-packages/rpi_robot_action_interfaces/rpi_robot_action_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[32.036672] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/lib/python3.8/site-packages/rpi_robot_action_interfaces/rpi_robot_action_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[32.039926] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/smartway/ros2_ws/install/rpi_robot_action_interfaces/lib/python3.8/site-packages/rpi_robot_action_interfaces/rpi_robot_action_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[32.040470] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/lib/librpi_robot_action_interfaces__python.so\n'}
+[32.042952] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/smartway/ros2_ws/install/rpi_robot_action_interfaces/lib/librpi_robot_action_interfaces__python.so" to ""\n'}
+[32.043582] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/action/GoToGoal.idl\n'}
+[32.044716] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/action/GoToGoal.action\n'}
+[32.046111] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/ament_index/resource_index/package_run_dependencies/rpi_robot_action_interfaces\n'}
+[32.047630] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/ament_index/resource_index/parent_prefix_path/rpi_robot_action_interfaces\n'}
+[32.048773] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/environment/ament_prefix_path.sh\n'}
+[32.049926] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/environment/ament_prefix_path.dsv\n'}
+[32.051011] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/environment/path.sh\n'}
+[32.052057] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/environment/path.dsv\n'}
+[32.053138] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/local_setup.bash\n'}
+[32.054223] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/local_setup.sh\n'}
+[32.055262] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/local_setup.zsh\n'}
+[32.056279] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/local_setup.dsv\n'}
+[32.057370] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/package.dsv\n'}
+[32.058681] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/ament_index/resource_index/packages/rpi_robot_action_interfaces\n'}
+[32.060215] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/cmake/rpi_robot_action_interfaces__rosidl_generator_cExport.cmake\n'}
+[32.061601] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/cmake/rpi_robot_action_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[32.063157] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/cmake/rpi_robot_action_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[32.064523] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/cmake/rpi_robot_action_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[32.066099] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/cmake/rpi_robot_action_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[32.067530] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/cmake/rpi_robot_action_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[32.069062] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/cmake/rpi_robot_action_interfaces__rosidl_generator_cppExport.cmake\n'}
+[32.070591] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/cmake/rpi_robot_action_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[32.072073] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/cmake/rpi_robot_action_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[32.073644] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/cmake/rpi_robot_action_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[32.074978] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/cmake/rpi_robot_action_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[32.075528] (-) TimerEvent: {}
+[32.076427] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[32.077656] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[32.078850] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[32.080062] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[32.081320] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[32.082453] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[32.083625] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[32.084757] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/cmake/rpi_robot_action_interfacesConfig.cmake\n'}
+[32.085765] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/cmake/rpi_robot_action_interfacesConfig-version.cmake\n'}
+[32.086936] (rpi_robot_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/package.xml\n'}
+[32.093583] (rpi_robot_action_interfaces) CommandEnded: {'returncode': 0}
+[32.175783] (-) TimerEvent: {}
+[32.276662] (-) TimerEvent: {}
+[32.377855] (-) TimerEvent: {}
+[32.478602] (-) TimerEvent: {}
+[32.572672] (rpi_robot_action_interfaces) JobEnded: {'identifier': 'rpi_robot_action_interfaces', 'rc': 0}
+[32.576355] (-) EventReactorShutdown: {}

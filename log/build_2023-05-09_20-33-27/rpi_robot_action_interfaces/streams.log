@@ -1,0 +1,21 @@
+[1.054s] Invoking command in '/home/smartway/ros2_ws/build/rpi_robot_action_interfaces': /usr/bin/cmake /home/smartway/ros2_ws/rpi-robot-ros-foxy/rpi_robot_action_interfaces -DCMAKE_INSTALL_PREFIX=/home/smartway/ros2_ws/install/rpi_robot_action_interfaces
+[1.110s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.245s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.919s] Traceback (most recent call last):
+[1.920s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[1.921s]     from ament_package.templates import get_environment_hook_template_path
+[1.923s] ModuleNotFoundError: No module named 'ament_package'
+[2.041s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[2.042s]   execute_process(/usr/bin/python3
+[2.042s]   /opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[2.042s]   /home/smartway/ros2_ws/build/rpi_robot_action_interfaces/ament_cmake_package_templates/templates.cmake)
+[2.043s]   returned error code 1
+[2.044s] Call Stack (most recent call first):
+[2.044s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[2.045s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[2.046s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[2.046s]   CMakeLists.txt:19 (find_package)
+[2.047s] 
+[2.047s] 
+[2.048s] -- Configuring incomplete, errors occurred!
+[2.049s] See also "/home/smartway/ros2_ws/build/rpi_robot_action_interfaces/CMakeFiles/CMakeOutput.log".

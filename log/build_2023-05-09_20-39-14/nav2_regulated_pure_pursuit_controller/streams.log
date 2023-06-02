@@ -1,0 +1,104 @@
+[0.258s] Invoking command in '/home/smartway/ros2_ws/build/nav2_regulated_pure_pursuit_controller': AMENT_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_core:/home/smartway/ros2_ws/install/nav2_costmap_2d:/home/smartway/ros2_ws/install/nav2_util:/home/smartway/ros2_ws/install/nav2_voxel_grid:/home/smartway/ros2_ws/install/nav2_msgs:/home/smartway/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_core:/home/smartway/ros2_ws/install/nav2_costmap_2d:/home/smartway/ros2_ws/install/nav2_util:/home/smartway/ros2_ws/install/nav2_voxel_grid:/home/smartway/ros2_ws/install/nav2_msgs:/home/smartway/ros2_ws/install/nav2_common:/build/rpi_robot_action_interfaces:/build/rpi_robot_bringup:/build/rpi_robot_slam:/build/rplidar_ros:/opt/ros/foxy LD_LIBRARY_PATH=/home/smartway/ros2_ws/install/nav2_costmap_2d/lib:/home/smartway/ros2_ws/install/nav2_util/lib:/home/smartway/ros2_ws/install/nav2_voxel_grid/lib:/home/smartway/ros2_ws/install/nav2_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/smartway/ros2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/smartway/ros2_ws/src/navigation2/nav2_regulated_pure_pursuit_controller -DCMAKE_INSTALL_PREFIX=/home/smartway/ros2_ws/install/nav2_regulated_pure_pursuit_controller
+[0.624s] -- The C compiler identification is GNU 9.4.0
+[0.949s] -- The CXX compiler identification is GNU 9.4.0
+[0.979s] -- Check for working C compiler: /usr/bin/cc
+[1.483s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.488s] -- Detecting C compiler ABI info
+[1.973s] -- Detecting C compiler ABI info - done
+[2.024s] -- Detecting C compile features
+[2.027s] -- Detecting C compile features - done
+[2.041s] -- Check for working CXX compiler: /usr/bin/c++
+[2.584s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.591s] -- Detecting CXX compiler ABI info
+[3.204s] -- Detecting CXX compiler ABI info - done
+[3.272s] -- Detecting CXX compile features
+[3.277s] -- Detecting CXX compile features - done
+[3.319s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.587s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.592s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.140s] -- Found nav2_common: 0.4.7 (/home/smartway/ros2_ws/install/nav2_common/share/nav2_common/cmake)
+[6.146s] -- Found nav2_core: 0.4.7 (/home/smartway/ros2_ws/install/nav2_core/share/nav2_core/cmake)
+[6.795s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.906s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[7.807s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[8.213s] -- Found FastRTPS: /opt/ros/foxy/include  
+[9.102s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.576s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[9.591s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.610s] -- Looking for pthread.h
+[10.179s] -- Looking for pthread.h - found
+[10.182s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.738s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[10.739s] -- Looking for pthread_create in pthreads
+[11.176s] -- Looking for pthread_create in pthreads - not found
+[11.177s] -- Looking for pthread_create in pthread
+[11.684s] -- Looking for pthread_create in pthread - found
+[11.691s] -- Found Threads: TRUE  
+[20.395s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[26.357s] -- Setting build type to Release as none was specified.
+[37.845s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[38.626s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[38.642s] -- Check if compiler accepts -pthread
+[39.204s] -- Check if compiler accepts -pthread - yes
+[49.690s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[49.692s] -- Configured cppcheck include dirs: /home/smartway/ros2_ws/src/navigation2/nav2_regulated_pure_pursuit_controller/include
+[49.693s] -- Configured cppcheck exclude dirs and/or files: 
+[49.706s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[49.706s] -- Configured cpplint exclude dirs and/or files: 
+[49.718s] -- Added test 'lint_cmake' to check CMake code style
+[49.734s] -- Added test 'uncrustify' to check C / C++ code style
+[49.735s] -- Configured uncrustify additional arguments: 
+[49.739s] -- Added test 'xmllint' to check XML markup files
+[49.805s] -- Configuring done
+[50.498s] -- Generating done
+[50.514s] -- Build files have been written to: /home/smartway/ros2_ws/build/nav2_regulated_pure_pursuit_controller
+[50.594s] Invoked command in '/home/smartway/ros2_ws/build/nav2_regulated_pure_pursuit_controller' returned '0': AMENT_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_core:/home/smartway/ros2_ws/install/nav2_costmap_2d:/home/smartway/ros2_ws/install/nav2_util:/home/smartway/ros2_ws/install/nav2_voxel_grid:/home/smartway/ros2_ws/install/nav2_msgs:/home/smartway/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_core:/home/smartway/ros2_ws/install/nav2_costmap_2d:/home/smartway/ros2_ws/install/nav2_util:/home/smartway/ros2_ws/install/nav2_voxel_grid:/home/smartway/ros2_ws/install/nav2_msgs:/home/smartway/ros2_ws/install/nav2_common:/build/rpi_robot_action_interfaces:/build/rpi_robot_bringup:/build/rpi_robot_slam:/build/rplidar_ros:/opt/ros/foxy LD_LIBRARY_PATH=/home/smartway/ros2_ws/install/nav2_costmap_2d/lib:/home/smartway/ros2_ws/install/nav2_util/lib:/home/smartway/ros2_ws/install/nav2_voxel_grid/lib:/home/smartway/ros2_ws/install/nav2_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/smartway/ros2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/smartway/ros2_ws/src/navigation2/nav2_regulated_pure_pursuit_controller -DCMAKE_INSTALL_PREFIX=/home/smartway/ros2_ws/install/nav2_regulated_pure_pursuit_controller
+[50.597s] Invoking command in '/home/smartway/ros2_ws/build/nav2_regulated_pure_pursuit_controller': AMENT_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_core:/home/smartway/ros2_ws/install/nav2_costmap_2d:/home/smartway/ros2_ws/install/nav2_util:/home/smartway/ros2_ws/install/nav2_voxel_grid:/home/smartway/ros2_ws/install/nav2_msgs:/home/smartway/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_core:/home/smartway/ros2_ws/install/nav2_costmap_2d:/home/smartway/ros2_ws/install/nav2_util:/home/smartway/ros2_ws/install/nav2_voxel_grid:/home/smartway/ros2_ws/install/nav2_msgs:/home/smartway/ros2_ws/install/nav2_common:/build/rpi_robot_action_interfaces:/build/rpi_robot_bringup:/build/rpi_robot_slam:/build/rplidar_ros:/opt/ros/foxy LD_LIBRARY_PATH=/home/smartway/ros2_ws/install/nav2_costmap_2d/lib:/home/smartway/ros2_ws/install/nav2_util/lib:/home/smartway/ros2_ws/install/nav2_voxel_grid/lib:/home/smartway/ros2_ws/install/nav2_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/smartway/ros2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/smartway/ros2_ws/build/nav2_regulated_pure_pursuit_controller -- -j4 -l4
+[50.877s] [35m[1mScanning dependencies of target nav2_regulated_pure_pursuit_controller[0m
+[51.373s] [ 12%] [32mBuilding CXX object CMakeFiles/nav2_regulated_pure_pursuit_controller.dir/src/regulated_pure_pursuit_controller.cpp.o[0m
+[105.464s] [ 25%] [32m[1mLinking CXX shared library libnav2_regulated_pure_pursuit_controller.so[0m
+[107.848s] [ 25%] Built target nav2_regulated_pure_pursuit_controller
+[107.917s] [35m[1mScanning dependencies of target gtest_main[0m
+[108.013s] [ 37%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[113.414s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[113.798s] [ 50%] Built target gtest_main
+[113.890s] [35m[1mScanning dependencies of target gtest[0m
+[114.022s] [ 62%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[164.497s] [ 75%] [32m[1mLinking CXX static library libgtest.a[0m
+[164.768s] [ 75%] Built target gtest
+[164.844s] [35m[1mScanning dependencies of target test_regulated_pp[0m
+[165.374s] [ 87%] [32mBuilding CXX object test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o[0m
+[203.778s] [100%] [32m[1mLinking CXX executable test_regulated_pp[0m
+[209.120s] [100%] Built target test_regulated_pp
+[209.265s] Invoked command in '/home/smartway/ros2_ws/build/nav2_regulated_pure_pursuit_controller' returned '0': AMENT_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_core:/home/smartway/ros2_ws/install/nav2_costmap_2d:/home/smartway/ros2_ws/install/nav2_util:/home/smartway/ros2_ws/install/nav2_voxel_grid:/home/smartway/ros2_ws/install/nav2_msgs:/home/smartway/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_core:/home/smartway/ros2_ws/install/nav2_costmap_2d:/home/smartway/ros2_ws/install/nav2_util:/home/smartway/ros2_ws/install/nav2_voxel_grid:/home/smartway/ros2_ws/install/nav2_msgs:/home/smartway/ros2_ws/install/nav2_common:/build/rpi_robot_action_interfaces:/build/rpi_robot_bringup:/build/rpi_robot_slam:/build/rplidar_ros:/opt/ros/foxy LD_LIBRARY_PATH=/home/smartway/ros2_ws/install/nav2_costmap_2d/lib:/home/smartway/ros2_ws/install/nav2_util/lib:/home/smartway/ros2_ws/install/nav2_voxel_grid/lib:/home/smartway/ros2_ws/install/nav2_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/smartway/ros2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/smartway/ros2_ws/build/nav2_regulated_pure_pursuit_controller -- -j4 -l4
+[210.001s] Invoking command in '/home/smartway/ros2_ws/build/nav2_regulated_pure_pursuit_controller': AMENT_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_core:/home/smartway/ros2_ws/install/nav2_costmap_2d:/home/smartway/ros2_ws/install/nav2_util:/home/smartway/ros2_ws/install/nav2_voxel_grid:/home/smartway/ros2_ws/install/nav2_msgs:/home/smartway/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_core:/home/smartway/ros2_ws/install/nav2_costmap_2d:/home/smartway/ros2_ws/install/nav2_util:/home/smartway/ros2_ws/install/nav2_voxel_grid:/home/smartway/ros2_ws/install/nav2_msgs:/home/smartway/ros2_ws/install/nav2_common:/build/rpi_robot_action_interfaces:/build/rpi_robot_bringup:/build/rpi_robot_slam:/build/rplidar_ros:/opt/ros/foxy LD_LIBRARY_PATH=/home/smartway/ros2_ws/install/nav2_costmap_2d/lib:/home/smartway/ros2_ws/install/nav2_util/lib:/home/smartway/ros2_ws/install/nav2_voxel_grid/lib:/home/smartway/ros2_ws/install/nav2_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/smartway/ros2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/smartway/ros2_ws/build/nav2_regulated_pure_pursuit_controller
+[210.087s] -- Install configuration: "Release"
+[210.089s] -- Installing: /home/smartway/ros2_ws/install/nav2_regulated_pure_pursuit_controller/lib/libnav2_regulated_pure_pursuit_controller.so
+[210.094s] -- Set runtime path of "/home/smartway/ros2_ws/install/nav2_regulated_pure_pursuit_controller/lib/libnav2_regulated_pure_pursuit_controller.so" to ""
+[210.095s] -- Installing: /home/smartway/ros2_ws/install/nav2_regulated_pure_pursuit_controller/include/
+[210.096s] -- Installing: /home/smartway/ros2_ws/install/nav2_regulated_pure_pursuit_controller/include//nav2_regulated_pure_pursuit_controller
+[210.097s] -- Installing: /home/smartway/ros2_ws/install/nav2_regulated_pure_pursuit_controller/include//nav2_regulated_pure_pursuit_controller/regulated_pure_pursuit_controller.hpp
+[210.099s] -- Installing: /home/smartway/ros2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/library_path.sh
+[210.101s] -- Installing: /home/smartway/ros2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/library_path.dsv
+[210.103s] -- Installing: /home/smartway/ros2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/nav2_regulated_pure_pursuit_controller.xml
+[210.107s] -- Installing: /home/smartway/ros2_ws/install/nav2_regulated_pure_pursuit_controller/share/ament_index/resource_index/package_run_dependencies/nav2_regulated_pure_pursuit_controller
+[210.111s] -- Installing: /home/smartway/ros2_ws/install/nav2_regulated_pure_pursuit_controller/share/ament_index/resource_index/parent_prefix_path/nav2_regulated_pure_pursuit_controller
+[210.113s] -- Installing: /home/smartway/ros2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/ament_prefix_path.sh
+[210.115s] -- Installing: /home/smartway/ros2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/ament_prefix_path.dsv
+[210.117s] -- Installing: /home/smartway/ros2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/path.sh
+[210.119s] -- Installing: /home/smartway/ros2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/path.dsv
+[210.121s] -- Installing: /home/smartway/ros2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/local_setup.bash
+[210.123s] -- Installing: /home/smartway/ros2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/local_setup.sh
+[210.125s] -- Installing: /home/smartway/ros2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/local_setup.zsh
+[210.127s] -- Installing: /home/smartway/ros2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/local_setup.dsv
+[210.130s] -- Installing: /home/smartway/ros2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/package.dsv
+[210.133s] -- Installing: /home/smartway/ros2_ws/install/nav2_regulated_pure_pursuit_controller/share/ament_index/resource_index/packages/nav2_regulated_pure_pursuit_controller
+[210.136s] -- Installing: /home/smartway/ros2_ws/install/nav2_regulated_pure_pursuit_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_regulated_pure_pursuit_controller
+[210.139s] -- Installing: /home/smartway/ros2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[210.141s] -- Installing: /home/smartway/ros2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[210.143s] -- Installing: /home/smartway/ros2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[210.145s] -- Installing: /home/smartway/ros2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/ament_cmake_export_definitions-extras.cmake
+[210.147s] -- Installing: /home/smartway/ros2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/nav2_regulated_pure_pursuit_controllerConfig.cmake
+[210.148s] -- Installing: /home/smartway/ros2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/nav2_regulated_pure_pursuit_controllerConfig-version.cmake
+[210.150s] -- Installing: /home/smartway/ros2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/package.xml
+[210.221s] Invoked command in '/home/smartway/ros2_ws/build/nav2_regulated_pure_pursuit_controller' returned '0': AMENT_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_core:/home/smartway/ros2_ws/install/nav2_costmap_2d:/home/smartway/ros2_ws/install/nav2_util:/home/smartway/ros2_ws/install/nav2_voxel_grid:/home/smartway/ros2_ws/install/nav2_msgs:/home/smartway/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_core:/home/smartway/ros2_ws/install/nav2_costmap_2d:/home/smartway/ros2_ws/install/nav2_util:/home/smartway/ros2_ws/install/nav2_voxel_grid:/home/smartway/ros2_ws/install/nav2_msgs:/home/smartway/ros2_ws/install/nav2_common:/build/rpi_robot_action_interfaces:/build/rpi_robot_bringup:/build/rpi_robot_slam:/build/rplidar_ros:/opt/ros/foxy LD_LIBRARY_PATH=/home/smartway/ros2_ws/install/nav2_costmap_2d/lib:/home/smartway/ros2_ws/install/nav2_util/lib:/home/smartway/ros2_ws/install/nav2_voxel_grid/lib:/home/smartway/ros2_ws/install/nav2_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/smartway/ros2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/smartway/ros2_ws/build/nav2_regulated_pure_pursuit_controller

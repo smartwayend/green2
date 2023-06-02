@@ -1,0 +1,99 @@
+[0.210s] Invoking command in '/home/smartway/ros2_ws/build/nav2_navfn_planner': AMENT_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_core:/home/smartway/ros2_ws/install/nav2_costmap_2d:/home/smartway/ros2_ws/install/nav2_util:/home/smartway/ros2_ws/install/nav2_voxel_grid:/home/smartway/ros2_ws/install/nav2_msgs:/home/smartway/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_core:/home/smartway/ros2_ws/install/nav2_costmap_2d:/home/smartway/ros2_ws/install/nav2_util:/home/smartway/ros2_ws/install/nav2_voxel_grid:/home/smartway/ros2_ws/install/nav2_msgs:/home/smartway/ros2_ws/install/nav2_common:/build/rpi_robot_action_interfaces:/build/rpi_robot_bringup:/build/rpi_robot_slam:/build/rplidar_ros:/opt/ros/foxy LD_LIBRARY_PATH=/home/smartway/ros2_ws/install/nav2_costmap_2d/lib:/home/smartway/ros2_ws/install/nav2_util/lib:/home/smartway/ros2_ws/install/nav2_voxel_grid/lib:/home/smartway/ros2_ws/install/nav2_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/smartway/ros2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/smartway/ros2_ws/src/navigation2/nav2_navfn_planner -DCMAKE_INSTALL_PREFIX=/home/smartway/ros2_ws/install/nav2_navfn_planner
+[0.633s] -- The C compiler identification is GNU 9.4.0
+[1.058s] -- The CXX compiler identification is GNU 9.4.0
+[1.097s] -- Check for working C compiler: /usr/bin/cc
+[1.662s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.671s] -- Detecting C compiler ABI info
+[2.123s] -- Detecting C compiler ABI info - done
+[2.190s] -- Detecting C compile features
+[2.192s] -- Detecting C compile features - done
+[2.210s] -- Check for working CXX compiler: /usr/bin/c++
+[2.859s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.869s] -- Detecting CXX compiler ABI info
+[3.529s] -- Detecting CXX compiler ABI info - done
+[3.600s] -- Detecting CXX compile features
+[3.604s] -- Detecting CXX compile features - done
+[3.646s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.826s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.827s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.051s] -- Found nav2_common: 0.4.7 (/home/smartway/ros2_ws/install/nav2_common/share/nav2_common/cmake)
+[6.090s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[6.721s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.888s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[8.668s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[9.466s] -- Found FastRTPS: /opt/ros/foxy/include  
+[11.233s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.900s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[11.911s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.917s] -- Looking for pthread.h
+[13.067s] -- Looking for pthread.h - found
+[13.070s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[13.840s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[13.841s] -- Looking for pthread_create in pthreads
+[14.240s] -- Looking for pthread_create in pthreads - not found
+[14.241s] -- Looking for pthread_create in pthread
+[14.722s] -- Looking for pthread_create in pthread - found
+[14.728s] -- Found Threads: TRUE  
+[15.579s] -- Found rclcpp_action: 2.4.2 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[16.014s] -- Found rclcpp_lifecycle: 2.4.2 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[16.216s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[16.744s] -- Found nav2_util: 0.4.7 (/home/smartway/ros2_ws/install/nav2_util/share/nav2_util/cmake)
+[19.662s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[19.694s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[20.308s] -- Found nav2_core: 0.4.7 (/home/smartway/ros2_ws/install/nav2_core/share/nav2_core/cmake)
+[25.945s] -- Setting build type to Release as none was specified.
+[41.223s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[42.241s] -- Added test 'copyright' to check source files copyright and LICENSE
+[42.257s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[42.261s] -- Configured cppcheck include dirs: /home/smartway/ros2_ws/src/navigation2/nav2_navfn_planner/include
+[42.262s] -- Configured cppcheck exclude dirs and/or files: 
+[42.275s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[42.277s] -- Configured cpplint exclude dirs and/or files: 
+[42.287s] -- Added test 'lint_cmake' to check CMake code style
+[42.304s] -- Added test 'uncrustify' to check C / C++ code style
+[42.305s] -- Configured uncrustify additional arguments: 
+[42.312s] -- Added test 'xmllint' to check XML markup files
+[42.394s] -- Configuring done
+[42.738s] -- Generating done
+[42.757s] -- Build files have been written to: /home/smartway/ros2_ws/build/nav2_navfn_planner
+[42.870s] Invoked command in '/home/smartway/ros2_ws/build/nav2_navfn_planner' returned '0': AMENT_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_core:/home/smartway/ros2_ws/install/nav2_costmap_2d:/home/smartway/ros2_ws/install/nav2_util:/home/smartway/ros2_ws/install/nav2_voxel_grid:/home/smartway/ros2_ws/install/nav2_msgs:/home/smartway/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_core:/home/smartway/ros2_ws/install/nav2_costmap_2d:/home/smartway/ros2_ws/install/nav2_util:/home/smartway/ros2_ws/install/nav2_voxel_grid:/home/smartway/ros2_ws/install/nav2_msgs:/home/smartway/ros2_ws/install/nav2_common:/build/rpi_robot_action_interfaces:/build/rpi_robot_bringup:/build/rpi_robot_slam:/build/rplidar_ros:/opt/ros/foxy LD_LIBRARY_PATH=/home/smartway/ros2_ws/install/nav2_costmap_2d/lib:/home/smartway/ros2_ws/install/nav2_util/lib:/home/smartway/ros2_ws/install/nav2_voxel_grid/lib:/home/smartway/ros2_ws/install/nav2_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/smartway/ros2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/smartway/ros2_ws/src/navigation2/nav2_navfn_planner -DCMAKE_INSTALL_PREFIX=/home/smartway/ros2_ws/install/nav2_navfn_planner
+[42.887s] Invoking command in '/home/smartway/ros2_ws/build/nav2_navfn_planner': AMENT_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_core:/home/smartway/ros2_ws/install/nav2_costmap_2d:/home/smartway/ros2_ws/install/nav2_util:/home/smartway/ros2_ws/install/nav2_voxel_grid:/home/smartway/ros2_ws/install/nav2_msgs:/home/smartway/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_core:/home/smartway/ros2_ws/install/nav2_costmap_2d:/home/smartway/ros2_ws/install/nav2_util:/home/smartway/ros2_ws/install/nav2_voxel_grid:/home/smartway/ros2_ws/install/nav2_msgs:/home/smartway/ros2_ws/install/nav2_common:/build/rpi_robot_action_interfaces:/build/rpi_robot_bringup:/build/rpi_robot_slam:/build/rplidar_ros:/opt/ros/foxy LD_LIBRARY_PATH=/home/smartway/ros2_ws/install/nav2_costmap_2d/lib:/home/smartway/ros2_ws/install/nav2_util/lib:/home/smartway/ros2_ws/install/nav2_voxel_grid/lib:/home/smartway/ros2_ws/install/nav2_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/smartway/ros2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/smartway/ros2_ws/build/nav2_navfn_planner -- -j4 -l4
+[43.445s] [35m[1mScanning dependencies of target nav2_navfn_planner[0m
+[44.266s] [ 33%] [32mBuilding CXX object CMakeFiles/nav2_navfn_planner.dir/src/navfn_planner.cpp.o[0m
+[110.977s] [ 66%] [32mBuilding CXX object CMakeFiles/nav2_navfn_planner.dir/src/navfn.cpp.o[0m
+[126.844s] [100%] [32m[1mLinking CXX shared library libnav2_navfn_planner.so[0m
+[128.841s] [100%] Built target nav2_navfn_planner
+[128.913s] Invoked command in '/home/smartway/ros2_ws/build/nav2_navfn_planner' returned '0': AMENT_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_core:/home/smartway/ros2_ws/install/nav2_costmap_2d:/home/smartway/ros2_ws/install/nav2_util:/home/smartway/ros2_ws/install/nav2_voxel_grid:/home/smartway/ros2_ws/install/nav2_msgs:/home/smartway/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_core:/home/smartway/ros2_ws/install/nav2_costmap_2d:/home/smartway/ros2_ws/install/nav2_util:/home/smartway/ros2_ws/install/nav2_voxel_grid:/home/smartway/ros2_ws/install/nav2_msgs:/home/smartway/ros2_ws/install/nav2_common:/build/rpi_robot_action_interfaces:/build/rpi_robot_bringup:/build/rpi_robot_slam:/build/rplidar_ros:/opt/ros/foxy LD_LIBRARY_PATH=/home/smartway/ros2_ws/install/nav2_costmap_2d/lib:/home/smartway/ros2_ws/install/nav2_util/lib:/home/smartway/ros2_ws/install/nav2_voxel_grid/lib:/home/smartway/ros2_ws/install/nav2_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/smartway/ros2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/smartway/ros2_ws/build/nav2_navfn_planner -- -j4 -l4
+[129.141s] Invoking command in '/home/smartway/ros2_ws/build/nav2_navfn_planner': AMENT_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_core:/home/smartway/ros2_ws/install/nav2_costmap_2d:/home/smartway/ros2_ws/install/nav2_util:/home/smartway/ros2_ws/install/nav2_voxel_grid:/home/smartway/ros2_ws/install/nav2_msgs:/home/smartway/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_core:/home/smartway/ros2_ws/install/nav2_costmap_2d:/home/smartway/ros2_ws/install/nav2_util:/home/smartway/ros2_ws/install/nav2_voxel_grid:/home/smartway/ros2_ws/install/nav2_msgs:/home/smartway/ros2_ws/install/nav2_common:/build/rpi_robot_action_interfaces:/build/rpi_robot_bringup:/build/rpi_robot_slam:/build/rplidar_ros:/opt/ros/foxy LD_LIBRARY_PATH=/home/smartway/ros2_ws/install/nav2_costmap_2d/lib:/home/smartway/ros2_ws/install/nav2_util/lib:/home/smartway/ros2_ws/install/nav2_voxel_grid/lib:/home/smartway/ros2_ws/install/nav2_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/smartway/ros2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/smartway/ros2_ws/build/nav2_navfn_planner
+[129.227s] -- Install configuration: "Release"
+[129.231s] -- Installing: /home/smartway/ros2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/global_planner_plugin.xml
+[129.237s] -- Installing: /home/smartway/ros2_ws/install/nav2_navfn_planner/lib/libnav2_navfn_planner.so
+[129.247s] -- Set runtime path of "/home/smartway/ros2_ws/install/nav2_navfn_planner/lib/libnav2_navfn_planner.so" to ""
+[129.249s] -- Installing: /home/smartway/ros2_ws/install/nav2_navfn_planner/include/
+[129.252s] -- Installing: /home/smartway/ros2_ws/install/nav2_navfn_planner/include//nav2_navfn_planner
+[129.254s] -- Installing: /home/smartway/ros2_ws/install/nav2_navfn_planner/include//nav2_navfn_planner/navfn_planner.hpp
+[129.257s] -- Installing: /home/smartway/ros2_ws/install/nav2_navfn_planner/include//nav2_navfn_planner/navfn.hpp
+[129.264s] -- Up-to-date: /home/smartway/ros2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/global_planner_plugin.xml
+[129.267s] -- Installing: /home/smartway/ros2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/environment/library_path.sh
+[129.272s] -- Installing: /home/smartway/ros2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/environment/library_path.dsv
+[129.278s] -- Installing: /home/smartway/ros2_ws/install/nav2_navfn_planner/share/ament_index/resource_index/package_run_dependencies/nav2_navfn_planner
+[129.283s] -- Installing: /home/smartway/ros2_ws/install/nav2_navfn_planner/share/ament_index/resource_index/parent_prefix_path/nav2_navfn_planner
+[129.288s] -- Installing: /home/smartway/ros2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/environment/ament_prefix_path.sh
+[129.291s] -- Installing: /home/smartway/ros2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/environment/ament_prefix_path.dsv
+[129.296s] -- Installing: /home/smartway/ros2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/environment/path.sh
+[129.301s] -- Installing: /home/smartway/ros2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/environment/path.dsv
+[129.305s] -- Installing: /home/smartway/ros2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/local_setup.bash
+[129.309s] -- Installing: /home/smartway/ros2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/local_setup.sh
+[129.312s] -- Installing: /home/smartway/ros2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/local_setup.zsh
+[129.316s] -- Installing: /home/smartway/ros2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/local_setup.dsv
+[129.320s] -- Installing: /home/smartway/ros2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/package.dsv
+[129.325s] -- Installing: /home/smartway/ros2_ws/install/nav2_navfn_planner/share/ament_index/resource_index/packages/nav2_navfn_planner
+[129.330s] -- Installing: /home/smartway/ros2_ws/install/nav2_navfn_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_navfn_planner
+[129.335s] -- Installing: /home/smartway/ros2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[129.339s] -- Installing: /home/smartway/ros2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/cmake/ament_cmake_export_libraries-extras.cmake
+[129.343s] -- Installing: /home/smartway/ros2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[129.348s] -- Installing: /home/smartway/ros2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/cmake/ament_cmake_export_definitions-extras.cmake
+[129.352s] -- Installing: /home/smartway/ros2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/cmake/nav2_navfn_plannerConfig.cmake
+[129.355s] -- Installing: /home/smartway/ros2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/cmake/nav2_navfn_plannerConfig-version.cmake
+[129.359s] -- Installing: /home/smartway/ros2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/package.xml
+[129.390s] Invoked command in '/home/smartway/ros2_ws/build/nav2_navfn_planner' returned '0': AMENT_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_core:/home/smartway/ros2_ws/install/nav2_costmap_2d:/home/smartway/ros2_ws/install/nav2_util:/home/smartway/ros2_ws/install/nav2_voxel_grid:/home/smartway/ros2_ws/install/nav2_msgs:/home/smartway/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/smartway/ros2_ws/install/nav2_core:/home/smartway/ros2_ws/install/nav2_costmap_2d:/home/smartway/ros2_ws/install/nav2_util:/home/smartway/ros2_ws/install/nav2_voxel_grid:/home/smartway/ros2_ws/install/nav2_msgs:/home/smartway/ros2_ws/install/nav2_common:/build/rpi_robot_action_interfaces:/build/rpi_robot_bringup:/build/rpi_robot_slam:/build/rplidar_ros:/opt/ros/foxy LD_LIBRARY_PATH=/home/smartway/ros2_ws/install/nav2_costmap_2d/lib:/home/smartway/ros2_ws/install/nav2_util/lib:/home/smartway/ros2_ws/install/nav2_voxel_grid/lib:/home/smartway/ros2_ws/install/nav2_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/smartway/ros2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/smartway/ros2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/smartway/ros2_ws/build/nav2_navfn_planner

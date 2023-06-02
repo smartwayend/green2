@@ -1,0 +1,21 @@
+[0.165s] Invoking command in '/home/smartway/ros2_ws/build/nav_2d_msgs': /usr/bin/cmake /home/smartway/ros2_ws/src/navigation2/nav2_dwb_controller/nav_2d_msgs -DCMAKE_INSTALL_PREFIX=/home/smartway/ros2_ws/install/nav_2d_msgs
+[1.081s] -- Configuring incomplete, errors occurred!
+[1.088s] See also "/home/smartway/ros2_ws/build/nav_2d_msgs/CMakeFiles/CMakeOutput.log".
+[1.089s] CMake Error at CMakeLists.txt:4 (find_package):
+[1.090s]   By not providing "Findgeometry_msgs.cmake" in CMAKE_MODULE_PATH this
+[1.092s]   project has asked CMake to find a package configuration file provided by
+[1.094s]   "geometry_msgs", but CMake did not find one.
+[1.096s] 
+[1.103s]   Could not find a package configuration file provided by "geometry_msgs"
+[1.104s]   with any of the following names:
+[1.105s] 
+[1.105s]     geometry_msgsConfig.cmake
+[1.107s]     geometry_msgs-config.cmake
+[1.114s] 
+[1.115s]   Add the installation prefix of "geometry_msgs" to CMAKE_PREFIX_PATH or set
+[1.123s]   "geometry_msgs_DIR" to a directory containing one of the above files.  If
+[1.124s]   "geometry_msgs" provides a separate development package or SDK, be sure it
+[1.125s]   has been installed.
+[1.126s] 
+[1.126s] 
+[1.138s] Invoked command in '/home/smartway/ros2_ws/build/nav_2d_msgs' returned '1': /usr/bin/cmake /home/smartway/ros2_ws/src/navigation2/nav2_dwb_controller/nav_2d_msgs -DCMAKE_INSTALL_PREFIX=/home/smartway/ros2_ws/install/nav_2d_msgs

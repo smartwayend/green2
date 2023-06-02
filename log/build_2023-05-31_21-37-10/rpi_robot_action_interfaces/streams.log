@@ -1,0 +1,117 @@
+[0.156s] Invoking command in '/home/smartway/ros2_ws/build/rpi_robot_action_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/smartway/ros2_ws/install/rpi_robot_control:/home/smartway/ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/smartway/ros2_ws/build/rpi_robot_action_interfaces -- -j4 -l4
+[0.996s] [  3%] Built target rpi_robot_action_interfaces__cpp
+[1.238s] [ 12%] Built target rpi_robot_action_interfaces__rosidl_generator_c
+[1.468s] [ 22%] Built target rpi_robot_action_interfaces__rosidl_typesupport_introspection_cpp
+[1.567s] [ 32%] Built target rpi_robot_action_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.752s] [ 41%] Built target rpi_robot_action_interfaces__rosidl_typesupport_cpp
+[1.881s] [ 51%] Built target rpi_robot_action_interfaces__rosidl_typesupport_c
+[1.914s] [ 61%] Built target rpi_robot_action_interfaces__rosidl_typesupport_introspection_c
+[1.992s] [ 70%] Built target rpi_robot_action_interfaces__rosidl_typesupport_fastrtps_c
+[2.211s] [ 70%] Built target rpi_robot_action_interfaces
+[2.550s] [ 74%] Built target rpi_robot_action_interfaces__py
+[2.945s] [ 80%] Built target rpi_robot_action_interfaces__python
+[3.407s] [ 87%] Built target rpi_robot_action_interfaces__rosidl_typesupport_c__pyext
+[3.525s] [ 93%] Built target rpi_robot_action_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.572s] [100%] Built target rpi_robot_action_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.661s] Invoked command in '/home/smartway/ros2_ws/build/rpi_robot_action_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/smartway/ros2_ws/install/rpi_robot_control:/home/smartway/ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/smartway/ros2_ws/build/rpi_robot_action_interfaces -- -j4 -l4
+[5.293s] Invoking command in '/home/smartway/ros2_ws/build/rpi_robot_action_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/smartway/ros2_ws/install/rpi_robot_control:/home/smartway/ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --install /home/smartway/ros2_ws/build/rpi_robot_action_interfaces
+[5.381s] -- Install configuration: ""
+[5.382s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/ament_index/resource_index/rosidl_interfaces/rpi_robot_action_interfaces
+[5.382s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces
+[5.383s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/msg
+[5.384s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/msg/rosidl_generator_c__visibility_control.h
+[5.386s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action
+[5.387s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action/go_to_goal.h
+[5.388s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action/detail
+[5.390s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action/detail/go_to_goal__functions.c
+[5.391s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action/detail/go_to_goal__functions.h
+[5.391s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action/detail/go_to_goal__type_support.h
+[5.392s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action/detail/go_to_goal__struct.h
+[5.393s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/environment/library_path.sh
+[5.395s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/environment/library_path.dsv
+[5.396s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/lib/librpi_robot_action_interfaces__rosidl_generator_c.so
+[5.397s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces
+[5.397s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/msg
+[5.398s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.399s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action
+[5.403s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action/detail
+[5.404s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action/detail/go_to_goal__rosidl_typesupport_fastrtps_c.h
+[5.405s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/lib/librpi_robot_action_interfaces__rosidl_typesupport_fastrtps_c.so
+[5.406s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces
+[5.409s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/msg
+[5.416s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.418s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action
+[5.420s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action/detail
+[5.421s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action/detail/dds_fastrtps
+[5.422s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action/detail/go_to_goal__rosidl_typesupport_fastrtps_cpp.hpp
+[5.423s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/lib/librpi_robot_action_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[5.425s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces
+[5.426s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/msg
+[5.439s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.440s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action
+[5.440s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action/detail
+[5.441s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action/detail/go_to_goal__rosidl_typesupport_introspection_c.h
+[5.441s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action/detail/go_to_goal__type_support.c
+[5.441s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/lib/librpi_robot_action_interfaces__rosidl_typesupport_introspection_c.so
+[5.442s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/lib/librpi_robot_action_interfaces__rosidl_typesupport_c.so
+[5.442s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces
+[5.443s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action
+[5.443s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action/detail
+[5.444s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action/detail/go_to_goal__traits.hpp
+[5.444s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action/detail/go_to_goal__builder.hpp
+[5.445s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action/detail/go_to_goal__struct.hpp
+[5.445s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action/go_to_goal.hpp
+[5.446s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces
+[5.446s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action
+[5.447s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action/detail
+[5.447s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action/detail/go_to_goal__rosidl_typesupport_introspection_cpp.hpp
+[5.460s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/include/rpi_robot_action_interfaces/action/detail/go_to_goal__type_support.cpp
+[5.461s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/lib/librpi_robot_action_interfaces__rosidl_typesupport_introspection_cpp.so
+[5.462s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/lib/librpi_robot_action_interfaces__rosidl_typesupport_cpp.so
+[5.465s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/environment/pythonpath.sh
+[5.470s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/environment/pythonpath.dsv
+[5.471s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/lib/python3.8/site-packages/rpi_robot_action_interfaces/__init__.py
+[5.838s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/lib/python3.8/site-packages/rpi_robot_action_interfaces/action
+[5.839s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/lib/python3.8/site-packages/rpi_robot_action_interfaces/action/_go_to_goal.py
+[5.840s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/lib/python3.8/site-packages/rpi_robot_action_interfaces/action/_go_to_goal_s.c
+[5.840s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/lib/python3.8/site-packages/rpi_robot_action_interfaces/action/__init__.py
+[5.842s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/lib/python3.8/site-packages/rpi_robot_action_interfaces/rpi_robot_action_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[5.846s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/lib/python3.8/site-packages/rpi_robot_action_interfaces/rpi_robot_action_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[5.849s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/lib/python3.8/site-packages/rpi_robot_action_interfaces/rpi_robot_action_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[5.853s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/lib/librpi_robot_action_interfaces__python.so
+[5.855s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/action/GoToGoal.idl
+[5.856s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/action/GoToGoal.action
+[5.856s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/ament_index/resource_index/package_run_dependencies/rpi_robot_action_interfaces
+[5.857s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/ament_index/resource_index/parent_prefix_path/rpi_robot_action_interfaces
+[5.860s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/environment/ament_prefix_path.sh
+[5.861s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/environment/ament_prefix_path.dsv
+[5.861s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/environment/path.sh
+[5.863s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/environment/path.dsv
+[5.866s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/local_setup.bash
+[5.867s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/local_setup.sh
+[5.869s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/local_setup.zsh
+[5.869s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/local_setup.dsv
+[5.870s] -- Installing: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/package.dsv
+[5.871s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/ament_index/resource_index/packages/rpi_robot_action_interfaces
+[5.876s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/cmake/rpi_robot_action_interfaces__rosidl_generator_cExport.cmake
+[5.880s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/cmake/rpi_robot_action_interfaces__rosidl_generator_cExport-noconfig.cmake
+[5.885s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/cmake/rpi_robot_action_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[5.889s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/cmake/rpi_robot_action_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.893s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/cmake/rpi_robot_action_interfaces__rosidl_typesupport_cExport.cmake
+[5.897s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/cmake/rpi_robot_action_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[5.901s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/cmake/rpi_robot_action_interfaces__rosidl_generator_cppExport.cmake
+[5.936s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/cmake/rpi_robot_action_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[5.939s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/cmake/rpi_robot_action_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.942s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/cmake/rpi_robot_action_interfaces__rosidl_typesupport_cppExport.cmake
+[5.945s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/cmake/rpi_robot_action_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[5.949s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/cmake/rosidl_cmake-extras.cmake
+[5.952s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.966s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[5.967s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[5.968s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.968s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.968s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.969s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/cmake/rpi_robot_action_interfacesConfig.cmake
+[5.969s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/cmake/rpi_robot_action_interfacesConfig-version.cmake
+[5.970s] -- Up-to-date: /home/smartway/ros2_ws/install/rpi_robot_action_interfaces/share/rpi_robot_action_interfaces/package.xml
+[5.992s] Invoked command in '/home/smartway/ros2_ws/build/rpi_robot_action_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/smartway/ros2_ws/install/rpi_robot_control:/home/smartway/ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --install /home/smartway/ros2_ws/build/rpi_robot_action_interfaces

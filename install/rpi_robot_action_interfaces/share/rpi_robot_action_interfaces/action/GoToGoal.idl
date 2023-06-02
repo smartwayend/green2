@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from rpi_robot_action_interfaces/action/GoToGoal.action
+// generated code does not contain a copyright notice
+
+
+module rpi_robot_action_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      " goal")
+    struct GoToGoal_Goal {
+      float x;
+
+      float y;
+    };
+    struct GoToGoal_Result {
+      @verbatim (language="comment", text=
+        " result")
+      boolean goal_reached;
+    };
+    struct GoToGoal_Feedback {
+      @verbatim (language="comment", text=
+        " feedback")
+      float current_x;
+
+      float current_y;
+
+      float distance;
+    };
+  };
+};
